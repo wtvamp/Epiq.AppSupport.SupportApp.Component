@@ -681,7 +681,7 @@ module.exports = emptyFunction;
 var _prodInvariant = __webpack_require__(6);
 
 var DOMProperty = __webpack_require__(23);
-var ReactDOMComponentFlags = __webpack_require__(140);
+var ReactDOMComponentFlags = __webpack_require__(139);
 
 var invariant = __webpack_require__(1);
 
@@ -882,7 +882,7 @@ module.exports = ReactDOMComponentTree;
 var _prodInvariant = __webpack_require__(5);
 
 var DOMProperty = __webpack_require__(22);
-var ReactDOMComponentFlags = __webpack_require__(107);
+var ReactDOMComponentFlags = __webpack_require__(106);
 
 var invariant = __webpack_require__(1);
 
@@ -1879,9 +1879,9 @@ module.exports = __webpack_require__(35);
 var _prodInvariant = __webpack_require__(5),
     _assign = __webpack_require__(3);
 
-var CallbackQueue = __webpack_require__(105);
+var CallbackQueue = __webpack_require__(104);
 var PooledClass = __webpack_require__(24);
-var ReactFeatureFlags = __webpack_require__(110);
+var ReactFeatureFlags = __webpack_require__(109);
 var ReactReconciler = __webpack_require__(30);
 var Transaction = __webpack_require__(49);
 
@@ -2173,9 +2173,9 @@ module.exports = ReactCurrentOwner;
 var _prodInvariant = __webpack_require__(6),
     _assign = __webpack_require__(3);
 
-var CallbackQueue = __webpack_require__(138);
+var CallbackQueue = __webpack_require__(137);
 var PooledClass = __webpack_require__(27);
-var ReactFeatureFlags = __webpack_require__(143);
+var ReactFeatureFlags = __webpack_require__(142);
 var ReactReconciler = __webpack_require__(34);
 var Transaction = __webpack_require__(58);
 
@@ -3593,7 +3593,7 @@ var warning = __webpack_require__(2);
 var canDefineProperty = __webpack_require__(82);
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
-var REACT_ELEMENT_TYPE = __webpack_require__(125);
+var REACT_ELEMENT_TYPE = __webpack_require__(124);
 
 var RESERVED_PROPS = {
   key: true,
@@ -4104,7 +4104,7 @@ var warning = __webpack_require__(2);
 var canDefineProperty = __webpack_require__(61);
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
-var REACT_ELEMENT_TYPE = __webpack_require__(162);
+var REACT_ELEMENT_TYPE = __webpack_require__(161);
 
 var RESERVED_PROPS = {
   key: true,
@@ -4447,7 +4447,7 @@ var DOMNamespaces = __webpack_require__(65);
 var setInnerHTML = __webpack_require__(51);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(72);
-var setTextContent = __webpack_require__(123);
+var setTextContent = __webpack_require__(122);
 
 var ELEMENT_NODE_TYPE = 1;
 var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
@@ -4759,7 +4759,7 @@ var createFactory = ReactElement.createFactory;
 var cloneElement = ReactElement.cloneElement;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactElementValidator = __webpack_require__(126);
+  var ReactElementValidator = __webpack_require__(125);
   createElement = ReactElementValidator.createElement;
   createFactory = ReactElementValidator.createFactory;
   cloneElement = ReactElementValidator.cloneElement;
@@ -4914,7 +4914,7 @@ var DOMNamespaces = __webpack_require__(86);
 var setInnerHTML = __webpack_require__(60);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(93);
-var setTextContent = __webpack_require__(157);
+var setTextContent = __webpack_require__(156);
 
 var ELEMENT_NODE_TYPE = 1;
 var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
@@ -5207,7 +5207,7 @@ module.exports = ReactReconciler;
 
 var _assign = __webpack_require__(3);
 
-var ReactBaseClasses = __webpack_require__(161);
+var ReactBaseClasses = __webpack_require__(160);
 var ReactChildren = __webpack_require__(353);
 var ReactDOMFactories = __webpack_require__(354);
 var ReactElement = __webpack_require__(28);
@@ -5224,7 +5224,7 @@ var cloneElement = ReactElement.cloneElement;
 if (process.env.NODE_ENV !== 'production') {
   var lowPriorityWarning = __webpack_require__(100);
   var canDefineProperty = __webpack_require__(61);
-  var ReactElementValidator = __webpack_require__(163);
+  var ReactElementValidator = __webpack_require__(162);
   var didWarnPropTypesDeprecated = false;
   createElement = ReactElementValidator.createElement;
   createFactory = ReactElementValidator.createFactory;
@@ -5395,8 +5395,8 @@ var EventPluginRegistry = __webpack_require__(46);
 var EventPluginUtils = __webpack_require__(66);
 var ReactErrorUtils = __webpack_require__(70);
 
-var accumulateInto = __webpack_require__(117);
-var forEachAccumulated = __webpack_require__(118);
+var accumulateInto = __webpack_require__(116);
+var forEachAccumulated = __webpack_require__(117);
 var invariant = __webpack_require__(1);
 
 /**
@@ -5676,8 +5676,8 @@ module.exports = EventPluginHub;
 var EventPluginHub = __webpack_require__(37);
 var EventPluginUtils = __webpack_require__(66);
 
-var accumulateInto = __webpack_require__(117);
-var forEachAccumulated = __webpack_require__(118);
+var accumulateInto = __webpack_require__(116);
+var forEachAccumulated = __webpack_require__(117);
 var warning = __webpack_require__(2);
 
 var getListener = EventPluginHub.getListener;
@@ -5941,7 +5941,7 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(136)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(135)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
@@ -5974,8 +5974,8 @@ var EventPluginRegistry = __webpack_require__(55);
 var EventPluginUtils = __webpack_require__(87);
 var ReactErrorUtils = __webpack_require__(91);
 
-var accumulateInto = __webpack_require__(150);
-var forEachAccumulated = __webpack_require__(151);
+var accumulateInto = __webpack_require__(149);
+var forEachAccumulated = __webpack_require__(150);
 var invariant = __webpack_require__(1);
 
 /**
@@ -6251,8 +6251,8 @@ module.exports = EventPluginHub;
 var EventPluginHub = __webpack_require__(42);
 var EventPluginUtils = __webpack_require__(87);
 
-var accumulateInto = __webpack_require__(150);
-var forEachAccumulated = __webpack_require__(151);
+var accumulateInto = __webpack_require__(149);
+var forEachAccumulated = __webpack_require__(150);
 var warning = __webpack_require__(2);
 
 var getListener = EventPluginHub.getListener;
@@ -6768,7 +6768,7 @@ var _assign = __webpack_require__(3);
 
 var EventPluginRegistry = __webpack_require__(46);
 var ReactEventEmitterMixin = __webpack_require__(211);
-var ViewportMetrics = __webpack_require__(116);
+var ViewportMetrics = __webpack_require__(115);
 
 var getVendorPrefixedEventName = __webpack_require__(247);
 var isEventSupported = __webpack_require__(76);
@@ -7098,7 +7098,7 @@ module.exports = ReactBrowserEventEmitter;
 
 
 var SyntheticUIEvent = __webpack_require__(40);
-var ViewportMetrics = __webpack_require__(116);
+var ViewportMetrics = __webpack_require__(115);
 
 var getEventModifierState = __webpack_require__(74);
 
@@ -8059,7 +8059,7 @@ var _assign = __webpack_require__(3);
 
 var EventPluginRegistry = __webpack_require__(55);
 var ReactEventEmitterMixin = __webpack_require__(309);
-var ViewportMetrics = __webpack_require__(149);
+var ViewportMetrics = __webpack_require__(148);
 
 var getVendorPrefixedEventName = __webpack_require__(344);
 var isEventSupported = __webpack_require__(97);
@@ -8385,7 +8385,7 @@ module.exports = ReactBrowserEventEmitter;
 
 
 var SyntheticUIEvent = __webpack_require__(45);
-var ViewportMetrics = __webpack_require__(149);
+var ViewportMetrics = __webpack_require__(148);
 
 var getEventModifierState = __webpack_require__(95);
 
@@ -18809,7 +18809,7 @@ var ReactInstrumentation = __webpack_require__(12);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(72);
 var setInnerHTML = __webpack_require__(51);
-var setTextContent = __webpack_require__(123);
+var setTextContent = __webpack_require__(122);
 
 function getNodeAfter(parentNode, node) {
   // Special case for text components, which return [open, close] comments
@@ -19357,7 +19357,7 @@ module.exports = KeyEscapeUtils;
 var _prodInvariant = __webpack_require__(5);
 
 var React = __webpack_require__(31);
-var ReactPropTypesSecret = __webpack_require__(115);
+var ReactPropTypesSecret = __webpack_require__(114);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -20910,7 +20910,7 @@ var ReactInstrumentation = __webpack_require__(13);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(93);
 var setInnerHTML = __webpack_require__(60);
-var setTextContent = __webpack_require__(157);
+var setTextContent = __webpack_require__(156);
 
 function getNodeAfter(parentNode, node) {
   // Special case for text components, which return [open, close] comments
@@ -21458,8 +21458,8 @@ module.exports = KeyEscapeUtils;
 
 var _prodInvariant = __webpack_require__(6);
 
-var ReactPropTypesSecret = __webpack_require__(148);
-var propTypesFactory = __webpack_require__(135);
+var ReactPropTypesSecret = __webpack_require__(147);
+var propTypesFactory = __webpack_require__(134);
 
 var React = __webpack_require__(35);
 var PropTypes = propTypesFactory(React.isValidElement);
@@ -22741,634 +22741,6 @@ module.exports = exports['default'];
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-/* 
-Copyright 2017 Dicky Suryadi
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
- */
-
-// Our namespace.
-var dotnetify = typeof dotnetify === "undefined" ? {} : dotnetify;
-
-// Support using either AMD or CommonJS that loads our app.js, or being placed in <script> tag.
-(function (factory) {
-   if (true) {
-      !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(261), __webpack_require__(178), __webpack_require__(62), __webpack_require__(366)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
-				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
-				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-   } else if ((typeof exports === "undefined" ? "undefined" : _typeof(exports)) === "object" && (typeof module === "undefined" ? "undefined" : _typeof(module)) === "object") {
-      if (typeof window.jQuery === "undefined") window.jQuery = require('jquery');
-      module.exports = factory(require('react'), require('react-dom'), window.jQuery, require('signalr'));
-   } else {
-      factory(React, ReactDOM, jQuery);
-   }
-})(function (_React, _ReactDOM, $) {
-
-   // SignalR hub auto-generated from /signalr/hubs.
-   /// <reference path="..\..\SignalR.Client.JS\Scripts\jquery-1.6.4.js" />
-   /// <reference path="jquery.signalR.js" />
-   (function ($, window, undefined) {
-      /// <param name="$" type="jQuery" />
-      "use strict";
-
-      if (typeof $.signalR !== "function") {
-         throw new Error("SignalR: SignalR is not loaded. Please ensure jquery.signalR-x.js is referenced before ~/signalr/js.");
-      }
-
-      var signalR = $.signalR;
-
-      function makeProxyCallback(hub, callback) {
-         return function () {
-            // Call the client hub method
-            callback.apply(hub, $.makeArray(arguments));
-         };
-      }
-
-      function registerHubProxies(instance, shouldSubscribe) {
-         var key, hub, memberKey, memberValue, subscriptionMethod;
-
-         for (key in instance) {
-            if (instance.hasOwnProperty(key)) {
-               hub = instance[key];
-
-               if (!hub.hubName) {
-                  // Not a client hub
-                  continue;
-               }
-
-               if (shouldSubscribe) {
-                  // We want to subscribe to the hub events
-                  subscriptionMethod = hub.on;
-               } else {
-                  // We want to unsubscribe from the hub events
-                  subscriptionMethod = hub.off;
-               }
-
-               // Loop through all members on the hub and find client hub functions to subscribe/unsubscribe
-               for (memberKey in hub.client) {
-                  if (hub.client.hasOwnProperty(memberKey)) {
-                     memberValue = hub.client[memberKey];
-
-                     if (!$.isFunction(memberValue)) {
-                        // Not a client hub function
-                        continue;
-                     }
-
-                     subscriptionMethod.call(hub, memberKey, makeProxyCallback(hub, memberValue));
-                  }
-               }
-            }
-         }
-      }
-
-      $.hubConnection.prototype.createHubProxies = function () {
-         var proxies = {};
-         this.starting(function () {
-            // Register the hub proxies as subscribed
-            // (instance, shouldSubscribe)
-            registerHubProxies(proxies, true);
-
-            this._registerSubscribedHubs();
-         }).disconnected(function () {
-            // Unsubscribe all hub proxies when we "disconnect".  This is to ensure that we do not re-add functional call backs.
-            // (instance, shouldSubscribe)
-            registerHubProxies(proxies, false);
-         });
-
-         proxies['dotNetifyHub'] = this.createHubProxy('dotNetifyHub');
-         proxies['dotNetifyHub'].client = {};
-         proxies['dotNetifyHub'].server = {
-            dispose_VM: function dispose_VM(vmId) {
-               return proxies['dotNetifyHub'].invoke.apply(proxies['dotNetifyHub'], $.merge(["Dispose_VM"], $.makeArray(arguments)));
-            },
-
-            request_VM: function request_VM(vmId, vmArg) {
-               return proxies['dotNetifyHub'].invoke.apply(proxies['dotNetifyHub'], $.merge(["Request_VM"], $.makeArray(arguments)));
-            },
-
-            update_VM: function update_VM(vmId, vmData) {
-               return proxies['dotNetifyHub'].invoke.apply(proxies['dotNetifyHub'], $.merge(["Update_VM"], $.makeArray(arguments)));
-            }
-         };
-
-         return proxies;
-      };
-
-      signalR.hub = $.hubConnection("/signalr", { useDefaultPath: false });
-      $.extend(signalR, signalR.hub.createHubProxies());
-   })($, window);
-
-   dotnetify = $.extend(dotnetify, {
-      // SignalR hub.
-      hub: null,
-      hubServer: $.connection.dotNetifyHub.server,
-      hubOptions: { "transport": ["webSockets", "longPolling"] },
-
-      // Debug mode.
-      debug: true,
-      debugFn: null,
-
-      // Offline mode.
-      offline: false,
-      isOffline: true,
-      offlineTimeout: 5000,
-      offlineCacheFn: null,
-
-      _connectRetry: 0,
-      isConnected: function isConnected() {
-         return $.connection.hub.state == $.signalR.connectionState.connected;
-      }
-   });
-
-   dotnetify.react = $.extend(dotnetify.hasOwnProperty("react") ? dotnetify.react : {}, {
-      version: "1.0.2-beta",
-      viewModels: {},
-      plugins: {},
-
-      // Initializes connection to SignalR server hub.
-      init: function init() {
-         var self = dotnetify.react;
-         var getInitialStates = function getInitialStates() {
-            for (var vmId in self.viewModels) {
-               if (!self.viewModels[vmId].$requested) self.viewModels[vmId].$request();
-            }
-         };
-
-         if (dotnetify.hub === null) {
-            // Setup SignalR server method handler.
-            var hub = $.connection.dotNetifyHub;
-            hub.client.response_VM = function (iVMId, iVMData) {
-
-               // Report unauthorized access.
-               if (iVMData == "403") {
-                  console.error("Unauthorized access to " + iVMId);
-                  return;
-               }
-
-               if (self.viewModels.hasOwnProperty(iVMId)) self.viewModels[iVMId].$update(iVMData);else
-                  // If we get to this point, that means the server holds a view model instance
-                  // whose view no longer existed.  So, tell the server to dispose the view model.
-                  hub.server.dispose_VM(iVMId);
-            };
-
-            // Start SignalR hub connection, and if successful, apply the widget to all scoped elements.
-            var startHub = function startHub() {
-               var hub = typeof dotnetify.hubOptions === "undefined" ? $.connection.hub.start() : $.connection.hub.start(dotnetify.hubOptions);
-               hub.done(function () {
-                  dotnetify._connectRetry = 0;
-                  getInitialStates();
-               }).fail(function (e) {
-                  console.error(e);
-               });
-
-               // If offline mode is enabled, apply the widget anyway when there's no connection.
-               setTimeout(function () {
-                  if (dotnetify.offline && !dotnetify.isConnected()) {
-                     getInitialStates();
-                     dotnetify.isOffline = true;
-                     $(document).trigger("offline", dotnetify.isOffline);
-                  }
-               }, dotnetify.offlineTimeout);
-
-               return hub;
-            };
-            dotnetify.hub = startHub();
-
-            // On disconnected, keep attempting to start the connection in increasing interval.
-            $.connection.hub.disconnected(function () {
-               setTimeout(function () {
-                  dotnetify.hub = startHub();
-               }, dotnetify._connectRetry * 5000 + 500);
-
-               if (dotnetify._connectRetry < 3) dotnetify._connectRetry++;
-            });
-
-            // Use SignalR event to raise the offline event with true/false argument.
-            $.connection.hub.stateChanged(function (state) {
-               var stateText = { 0: 'connecting', 1: 'connected', 2: 'reconnecting', 4: 'disconnected' };
-               console.log("SignalR: " + stateText[state.newState]);
-
-               var isOffline = state.newState != 1;
-               if (dotnetify.isOffline != isOffline) {
-                  dotnetify.isOffline = isOffline;
-                  $(document).trigger("offline", dotnetify.isOffline);
-               }
-            });
-         } else if (dotnetify.isConnected()) dotnetify.hub.done(getInitialStates);else if (dotnetify.offline) getInitialStates();
-      },
-
-      // Connects to a server view model.
-      connect: function connect(iVMId, iReact, iGetState, iSetState, iVMArg) {
-         if (dotnetify.ssr) return dotnetify.react.ssrConnect(iVMId, iReact, iVMArg);
-
-         var self = dotnetify.react;
-         if (!self.viewModels.hasOwnProperty(iVMId)) self.viewModels[iVMId] = new dotnetifyVM(iVMId, iReact, iGetState, iSetState, iVMArg);else console.error("Component is attempting to connect to an already active '" + iVMId + "'.  If it's from a dismounted component, you must add vm.$destroy to componentWillUnmount().");
-
-         self.init();
-         return self.viewModels[iVMId];
-      },
-
-      // Used by server-side rendering in lieu of connect method.
-      ssrConnect: function ssrConnect(iVMId, iReact, iVMArg) {
-         if (window.ssr == null || !window.ssr.hasOwnProperty(iVMId)) console.error("Server-side rendering requires initial state in 'window.ssr." + iVMId + "'.");
-
-         var self = dotnetify.react;
-         var vmState = window.ssr[iVMId];
-         var getState = function getState() {
-            return vmState;
-         };
-         var setState = function setState(state) {
-            vmState = $.extend(vmState, state);
-         };
-         var vm = self.viewModels[iVMId] = new dotnetifyVM(iVMId, iReact, getState, setState, iVMArg);
-
-         // Need to be asynch to allow initial state to be processed.
-         setTimeout(function () {
-            vm.$update(JSON.stringify(window.ssr[iVMId]));
-         }, 100);
-         return vm;
-      }
-   });
-
-   // Client-side view model that acts as a proxy of the server view model.
-   // iVMId - identifies the view model.
-   // iReact - React component.
-   // iGetState - React state accessor (optional).
-   // iSetState - React state mutator (optional).
-   // iVMArg - view model arguments (optional).
-   function dotnetifyVM(iVMId, iReact, iGetState, iSetState, iVMArg) {
-
-      this.$vmId = iVMId;
-      this.$component = iReact;
-      this.$vmArg = iVMArg;
-      this.$requested = false;
-      this.$loaded = false;
-      this.$itemKey = {};
-
-      if (typeof iGetState !== "function") {
-         this.$vmArg = iGetState;
-         iGetState = function iGetState() {
-            return iReact.state;
-         };
-         iSetState = function iSetState(state) {
-            iReact.setState(state);
-         };
-      }
-
-      if (iReact.props.hasOwnProperty("vmArg")) this.$vmArg = $.extend(this.$vmArg, iReact.props.vmArg);
-
-      this.State = function (state) {
-         return typeof state === "undefined" ? iGetState() : iSetState(state);
-      };
-
-      // Inject plugin functions into this view model.
-      for (var pluginId in dotnetify.react.plugins) {
-         var plugin = dotnetify.react.plugins[pluginId];
-         if (plugin.hasOwnProperty("$inject")) plugin.$inject(this);
-      }
-   }
-
-   // Disposes the view model, both here and on the server.
-   dotnetifyVM.prototype.$destroy = function () {
-
-      // Call any plugin's $destroy function if provided.
-      for (var pluginId in dotnetify.react.plugins) {
-         var plugin = dotnetify.react.plugins[pluginId];
-         if (typeof plugin["$destroy"] === "function") plugin.$destroy.apply(this);
-      }
-      dotnetify.hubServer.dispose_VM(this.$vmId);
-      delete dotnetify.react.viewModels[this.$vmId];
-   };
-
-   // Dispatches a value to the server view model.
-   // iValue - Vvalue to dispatch.
-   dotnetifyVM.prototype.$dispatch = function (iValue) {
-
-      if (dotnetify.isConnected()) {
-         try {
-            dotnetify.hubServer.update_VM(this.$vmId, iValue);
-
-            if (dotnetify.debug) {
-               console.log("[" + this.$vmId + "] sent> ");
-               console.log(iValue);
-
-               if (dotnetify.debugFn != null) dotnetify.debugFn(this.$vmId, "sent", iValue);
-            }
-         } catch (e) {
-            console.error(e);
-         }
-      }
-   };
-
-   // Dispatches a state value to the server view model.
-   // iValue - State value to dispatch.
-   dotnetifyVM.prototype.$dispatchListState = function (iValue) {
-      for (var listName in iValue) {
-         var key = this.$itemKey[listName];
-         if (!key) {
-            console.error("[" + this.$vmId + "] missing item key for '" + listName + "'; add " + listName + "_itemKey property to the view model.");
-            return;
-         }
-         var item = iValue[listName];
-         if (!item[key]) {
-            console.error("[" + this.$vmId + "] couldn't dispatch data from '" + listName + "' due to missing property '" + key + "'");
-            console.error(item);
-            return;
-         }
-         for (var prop in item) {
-            if (prop != key) {
-               var state = {};
-               state[listName + ".$" + item[key] + "." + prop] = item[prop];
-               this.$dispatch(state);
-            }
-         }
-
-         this.$updateList(listName, item);
-      }
-   };
-
-   // Loads an HTML view.
-   dotnetifyVM.prototype.$loadHtmlView = function (iTargetSelector, iViewUrl, iJsModuleUrl, iVmArg, callbackFn) {
-      var vm = this;
-
-      try {
-         // Unmount any React component before replacing with a new DOM. 
-         _ReactDOM.unmountComponentAtNode(document.querySelector(iTargetSelector));
-      } catch (e) {
-         console.error(e);
-      }
-
-      // Load the HTML view.
-      $(iTargetSelector).load(iViewUrl, null, function () {
-         if (iJsModuleUrl != null) {
-            $.getScript(iJsModuleUrl, function () {
-               if (typeof callbackFn === "function") callbackFn.call(vm);
-            });
-         } else if (typeof callbackFn === "function") callbackFn.call(vm);
-      });
-   };
-
-   // Loads a React view.
-   dotnetifyVM.prototype.$loadReactView = function (iTargetSelector, iReactClassName, iJsModuleUrl, iVmArg, iReactProps, callbackFn) {
-      var vm = this;
-      var createViewFunc = function createViewFunc() {
-         if (!window.hasOwnProperty(iReactClassName)) {
-            console.error("[" + vm.$vmId + "] failed to load view '" + iReactClassName + "' because it's not a React element.");
-            return;
-         }
-
-         try {
-            var reactElement = _React.createElement(window[iReactClassName], iReactProps);
-            _ReactDOM.render(reactElement, document.querySelector(iTargetSelector));
-         } catch (e) {
-            console.error(e);
-         }
-         if (typeof callbackFn === "function") callbackFn.call(vm, reactElement);
-      };
-
-      if (iJsModuleUrl == null) createViewFunc();else {
-         // Load all javascripts first. Multiple files can be specified with comma delimiter.
-         var getScripts = iJsModuleUrl.split(",").map(function (i) {
-            return $.getScript(i);
-         });
-         getScripts.push($.Deferred(function (deferred) {
-            $(deferred.resolve);
-         }));
-
-         $.when.apply($, getScripts).done(createViewFunc);
-      }
-   };
-
-   // Preprocess view model update from the server before we set the state.
-   dotnetifyVM.prototype.$preProcess = function (iVMUpdate) {
-      var vm = this;
-
-      for (var prop in iVMUpdate) {
-         // Look for property that end with '_add'. Interpret the value as a list item to be added 
-         // to an existing list whose property name precedes that suffix.
-         var match = /(.*)_add/.exec(prop);
-         if (match != null) {
-            var listName = match[1];
-            if (Array.isArray(this.State()[listName])) vm.$addList(listName, iVMUpdate[prop]);else console.error("unable to resolve " + prop);
-            delete iVMUpdate[prop];
-            continue;
-         }
-
-         // Look for property that end with '_update'. Interpret the value as a list item to be updated 
-         // to an existing list whose property name precedes that suffix.
-         var match = /(.*)_update/.exec(prop);
-         if (match != null) {
-            var listName = match[1];
-            if (Array.isArray(this.State()[listName])) vm.$updateList(listName, iVMUpdate[prop]);else console.error("[" + this.$vmId + "] '" + listName + "' is not found or not an array.");
-            delete iVMUpdate[prop];
-            continue;
-         }
-
-         // Look for property that end with '_remove'. Interpret the value as a list item key to remove
-         // from an existing list whose property name precedes that suffix.
-         var match = /(.*)_remove/.exec(prop);
-         if (match != null) {
-            var listName = match[1];
-            if (Array.isArray(this.State()[listName])) {
-               var key = this.$itemKey[listName];
-               if (key != null) vm.$removeList(listName, function (i) {
-                  return i[key] == iVMUpdate[prop];
-               });else console.error("[" + this.$vmId + "] missing item key for '" + listName + "'; add " + listName + "_itemKey property to the view model.");
-            } else console.error("[" + this.$vmId + "] '" + listName + "' is not found or not an array.");
-            delete iVMUpdate[prop];
-            continue;
-         }
-
-         // Look for property that end with '_itemKey'. Interpret the value as the property name that will
-         // uniquely identify items in the list.
-         var match = /(.*)_itemKey/.exec(prop);
-         if (match != null) {
-            var listName = match[1];
-            var itemKey = {};
-            itemKey[listName] = iVMUpdate[prop];
-            vm.$setItemKey(itemKey);
-            delete iVMUpdate[prop];
-            continue;
-         }
-      }
-   },
-
-   // Requests state from the server view model.
-   dotnetifyVM.prototype.$request = function () {
-      if (dotnetify.isConnected()) {
-         dotnetify.hubServer.request_VM(this.$vmId, this.$vmArg);
-         this.$requested = true;
-      }
-   };
-
-   // Updates state from the server view model to the view.
-   // iVMData - Serialized state from the server.
-   dotnetifyVM.prototype.$update = function (iVMData) {
-      if (dotnetify.debug) {
-         console.log("[" + this.$vmId + "] received> ");
-         console.log(JSON.parse(iVMData));
-
-         if (dotnetify.debugFn != null) dotnetify.debugFn(this.$vmId, "received", JSON.parse(iVMData));
-      }
-
-      var vmData = JSON.parse(iVMData);
-      this.$preProcess(vmData);
-
-      var state = this.State();
-      state = $.extend(state, vmData);
-      this.State(state);
-
-      if (!this.$loaded) this.$onLoad();
-   };
-
-   // Handles initial view model load event.
-   dotnetifyVM.prototype.$onLoad = function () {
-
-      // Call any plugin's $ready function if provided to give a chance to do
-      // things when the view model is ready.
-      for (var pluginId in dotnetify.react.plugins) {
-         var plugin = dotnetify.react.plugins[pluginId];
-         if (typeof plugin["$ready"] === "function") plugin.$ready.apply(this);
-      }
-      this.$loaded = true;
-   };
-
-   // *** CRUD Functions ***
-
-   // Sets items key to identify individual items in a list.
-   // Accepts object literal: { "<list name>": "<key prop name>", ... }
-   dotnetifyVM.prototype.$setItemKey = function (iItemKey) {
-      this.$itemKey = iItemKey;
-   };
-
-   //// Adds a new item to a state array.
-   dotnetifyVM.prototype.$addList = function (iListName, iNewItem) {
-      // Check if the list already has an item with the same key. If so, replace it.
-      var key = this.$itemKey[iListName];
-      if (key != null) {
-         if (!iNewItem.hasOwnProperty(key)) {
-            console.error("[" + this.$vmId + "] couldn't add item to '" + iListName + "' due to missing property '" + key + "'");
-            return;
-         }
-         var match = this.State()[iListName].filter(function (i) {
-            return i[key] == iNewItem[key];
-         });
-         if (match.length > 0) {
-            console.error("[" + this.$vmId + "] couldn't add item to '" + listName + "' because the key already exists");
-            return;
-         }
-      }
-
-      var items = this.State()[iListName];
-      items.push(iNewItem);
-
-      var state = {};
-      state[iListName] = items;
-      this.State(state);
-   };
-
-   // Removes an item from a state array.
-   dotnetifyVM.prototype.$removeList = function (iListName, iFilter) {
-      var state = {};
-      state[iListName] = this.State()[iListName].filter(function (i) {
-         return !iFilter(i);
-      });
-      this.State(state);
-   };
-
-   //// Updates existing item to an observable array.
-   dotnetifyVM.prototype.$updateList = function (iListName, iNewItem) {
-
-      // Check if the list already has an item with the same key. If so, update it.
-      var key = this.$itemKey[iListName];
-      if (key != null) {
-         if (!iNewItem.hasOwnProperty(key)) {
-            console.error("[" + this.$vmId + "] couldn't update item to '" + iListName + "' due to missing property '" + key + "'");
-            return;
-         }
-         var state = {};
-         state[iListName] = this.State()[iListName].map(function (i) {
-            return i[key] == iNewItem[key] ? $.extend(i, iNewItem) : i;
-         });
-         this.State(state);
-      } else console.error("[" + this.$vmId + "] missing item key for '" + listName + "'; add " + listName + "_itemKey property to the view model.");
-   };
-
-   // The <Scope> component uses React's 'context' to pass down the component hierarchy the name of the back-end view model
-   // of the parent component, so that when the child component connects to its back-end view model, the child view model
-   // instance is created within the scope of the parent view model.
-   // The <Scope> component also provides the 'connect' function for a component to connect to the back-end view model and
-   // injects properties and dispatch functions into the component.
-   dotnetify.react.Scope = _React.createClass({
-      displayName: "Scope",
-
-      propTypes: { vm: _React.PropTypes.string },
-      contextTypes: { scoped: _React.PropTypes.func },
-      childContextTypes: {
-         scoped: _React.PropTypes.func.isRequired,
-         connect: _React.PropTypes.func.isRequired
-      },
-      scoped: function scoped(vmId) {
-         var scope = this.context.scoped ? this.context.scoped(this.props.vm) : this.props.vm;
-         return scope ? scope + "." + vmId : vmId;
-      },
-      getChildContext: function getChildContext() {
-         var _this = this;
-
-         return {
-            scoped: function scoped(vmId) {
-               return _this.scoped(vmId);
-            },
-            connect: function connect(vmId, component, compGetState, compSetState, vmArg) {
-               var getState = typeof compGetState === "function" ? compGetState : function () {
-                  return component.state;
-               };
-               var setState = typeof compSetState === "function" ? compSetState : function (state) {
-                  return component.setState(state);
-               };
-               if (typeof compGetState !== "function") vmArg = compGetState;
-
-               component.vmId = _this.scoped(vmId);
-               component.vm = dotnetify.react.connect(component.vmId, component, getState, setState, vmArg);
-               component.dispatch = function (state) {
-                  return component.vm.$dispatch(state);
-               };
-               component.dispatchState = function (state) {
-                  setState(state);
-                  component.vm.$dispatch(state);
-               };
-               return window.vmStates ? window.vmStates[component.vmId] : null;
-            }
-         };
-      },
-      render: function render() {
-         return this.props.children;
-      }
-   });
-
-   return dotnetify;
-});
-
-/***/ }),
-/* 104 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -23518,7 +22890,7 @@ var CSSProperty = {
 module.exports = CSSProperty;
 
 /***/ }),
-/* 105 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23643,7 +23015,7 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 106 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23886,7 +23258,7 @@ module.exports = DOMPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 107 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23909,7 +23281,7 @@ var ReactDOMComponentFlags = {
 module.exports = ReactDOMComponentFlags;
 
 /***/ }),
-/* 108 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24115,7 +23487,7 @@ module.exports = ReactDOMSelect;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 109 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24150,7 +23522,7 @@ ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 module.exports = ReactEmptyComponent;
 
 /***/ }),
-/* 110 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24177,7 +23549,7 @@ var ReactFeatureFlags = {
 module.exports = ReactFeatureFlags;
 
 /***/ }),
-/* 111 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24251,7 +23623,7 @@ module.exports = ReactHostComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 112 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24269,7 +23641,7 @@ module.exports = ReactHostComponent;
 
 var ReactDOMSelection = __webpack_require__(202);
 
-var containsNode = __webpack_require__(129);
+var containsNode = __webpack_require__(128);
 var focusNode = __webpack_require__(53);
 var getActiveElement = __webpack_require__(54);
 
@@ -24380,7 +23752,7 @@ var ReactInputSelection = {
 module.exports = ReactInputSelection;
 
 /***/ }),
-/* 113 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24406,7 +23778,7 @@ var ReactCurrentOwner = __webpack_require__(16);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactDOMContainerInfo = __webpack_require__(194);
 var ReactDOMFeatureFlags = __webpack_require__(196);
-var ReactFeatureFlags = __webpack_require__(110);
+var ReactFeatureFlags = __webpack_require__(109);
 var ReactInstanceMap = __webpack_require__(39);
 var ReactInstrumentation = __webpack_require__(12);
 var ReactMarkupChecksum = __webpack_require__(216);
@@ -24415,7 +23787,7 @@ var ReactUpdateQueue = __webpack_require__(71);
 var ReactUpdates = __webpack_require__(15);
 
 var emptyObject = __webpack_require__(20);
-var instantiateReactComponent = __webpack_require__(121);
+var instantiateReactComponent = __webpack_require__(120);
 var invariant = __webpack_require__(1);
 var setInnerHTML = __webpack_require__(51);
 var shouldUpdateReactComponent = __webpack_require__(77);
@@ -24924,7 +24296,7 @@ module.exports = ReactMount;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 114 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24970,7 +24342,7 @@ module.exports = ReactNodeTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 115 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24992,7 +24364,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 116 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25024,7 +24396,7 @@ var ViewportMetrics = {
 module.exports = ViewportMetrics;
 
 /***/ }),
-/* 117 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25088,7 +24460,7 @@ module.exports = accumulateInto;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 118 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25124,7 +24496,7 @@ function forEachAccumulated(arr, cb, scope) {
 module.exports = forEachAccumulated;
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25140,7 +24512,7 @@ module.exports = forEachAccumulated;
 
 
 
-var ReactNodeTypes = __webpack_require__(114);
+var ReactNodeTypes = __webpack_require__(113);
 
 function getHostComponentFromComposite(inst) {
   var type;
@@ -25159,7 +24531,7 @@ function getHostComponentFromComposite(inst) {
 module.exports = getHostComponentFromComposite;
 
 /***/ }),
-/* 120 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25197,7 +24569,7 @@ function getTextContentAccessor() {
 module.exports = getTextContentAccessor;
 
 /***/ }),
-/* 121 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25219,8 +24591,8 @@ var _prodInvariant = __webpack_require__(5),
     _assign = __webpack_require__(3);
 
 var ReactCompositeComponent = __webpack_require__(191);
-var ReactEmptyComponent = __webpack_require__(109);
-var ReactHostComponent = __webpack_require__(111);
+var ReactEmptyComponent = __webpack_require__(108);
+var ReactHostComponent = __webpack_require__(110);
 
 var getNextDebugID = __webpack_require__(245);
 var invariant = __webpack_require__(1);
@@ -25333,7 +24705,7 @@ module.exports = instantiateReactComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 122 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25389,7 +24761,7 @@ function isTextInputElement(elem) {
 module.exports = isTextInputElement;
 
 /***/ }),
-/* 123 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25446,7 +24818,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setTextContent;
 
 /***/ }),
-/* 124 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25630,7 +25002,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 125 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25655,7 +25027,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 126 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25897,7 +25269,7 @@ module.exports = ReactElementValidator;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 127 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25919,7 +25291,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 128 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25964,7 +25336,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26009,7 +25381,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26099,7 +25471,7 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26143,7 +25515,7 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26187,7 +25559,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26222,7 +25594,7 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26261,7 +25633,7 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-/* 135 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26281,7 +25653,7 @@ module.exports = performanceNow;
 // However if one is migrating to the `prop-types` npm library, they will go through the
 // `index.js` entry point, and it will branch depending on the environment.
 
-var factory = __webpack_require__(136);
+var factory = __webpack_require__(135);
 module.exports = function (isValidElement) {
   // It is still allowed in 15.5.
   var throwOnDirectAccess = false;
@@ -26289,7 +25661,7 @@ module.exports = function (isValidElement) {
 };
 
 /***/ }),
-/* 136 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26788,7 +26160,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 137 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26947,7 +26319,7 @@ var CSSProperty = {
 module.exports = CSSProperty;
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27072,7 +26444,7 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27313,7 +26685,7 @@ module.exports = DOMPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27336,7 +26708,7 @@ var ReactDOMComponentFlags = {
 module.exports = ReactDOMComponentFlags;
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27542,7 +26914,7 @@ module.exports = ReactDOMSelect;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27577,7 +26949,7 @@ ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 module.exports = ReactEmptyComponent;
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27604,7 +26976,7 @@ var ReactFeatureFlags = {
 module.exports = ReactFeatureFlags;
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27678,7 +27050,7 @@ module.exports = ReactHostComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27696,7 +27068,7 @@ module.exports = ReactHostComponent;
 
 var ReactDOMSelection = __webpack_require__(300);
 
-var containsNode = __webpack_require__(129);
+var containsNode = __webpack_require__(128);
 var focusNode = __webpack_require__(53);
 var getActiveElement = __webpack_require__(54);
 
@@ -27806,7 +27178,7 @@ var ReactInputSelection = {
 module.exports = ReactInputSelection;
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27832,7 +27204,7 @@ var ReactCurrentOwner = __webpack_require__(18);
 var ReactDOMComponentTree = __webpack_require__(8);
 var ReactDOMContainerInfo = __webpack_require__(292);
 var ReactDOMFeatureFlags = __webpack_require__(294);
-var ReactFeatureFlags = __webpack_require__(143);
+var ReactFeatureFlags = __webpack_require__(142);
 var ReactInstanceMap = __webpack_require__(44);
 var ReactInstrumentation = __webpack_require__(13);
 var ReactMarkupChecksum = __webpack_require__(314);
@@ -27841,7 +27213,7 @@ var ReactUpdateQueue = __webpack_require__(92);
 var ReactUpdates = __webpack_require__(17);
 
 var emptyObject = __webpack_require__(20);
-var instantiateReactComponent = __webpack_require__(155);
+var instantiateReactComponent = __webpack_require__(154);
 var invariant = __webpack_require__(1);
 var setInnerHTML = __webpack_require__(60);
 var shouldUpdateReactComponent = __webpack_require__(98);
@@ -28350,7 +27722,7 @@ module.exports = ReactMount;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28396,7 +27768,7 @@ module.exports = ReactNodeTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28418,7 +27790,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28448,7 +27820,7 @@ var ViewportMetrics = {
 module.exports = ViewportMetrics;
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28512,7 +27884,7 @@ module.exports = accumulateInto;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28548,7 +27920,7 @@ function forEachAccumulated(arr, cb, scope) {
 module.exports = forEachAccumulated;
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28564,7 +27936,7 @@ module.exports = forEachAccumulated;
 
 
 
-var ReactNodeTypes = __webpack_require__(147);
+var ReactNodeTypes = __webpack_require__(146);
 
 function getHostComponentFromComposite(inst) {
   var type;
@@ -28583,7 +27955,7 @@ function getHostComponentFromComposite(inst) {
 module.exports = getHostComponentFromComposite;
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28621,7 +27993,7 @@ function getTextContentAccessor() {
 module.exports = getTextContentAccessor;
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28748,7 +28120,7 @@ var inputValueTracking = {
 module.exports = inputValueTracking;
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28770,8 +28142,8 @@ var _prodInvariant = __webpack_require__(6),
     _assign = __webpack_require__(3);
 
 var ReactCompositeComponent = __webpack_require__(289);
-var ReactEmptyComponent = __webpack_require__(142);
-var ReactHostComponent = __webpack_require__(144);
+var ReactEmptyComponent = __webpack_require__(141);
+var ReactHostComponent = __webpack_require__(143);
 
 var getNextDebugID = __webpack_require__(361);
 var invariant = __webpack_require__(1);
@@ -28885,7 +28257,7 @@ module.exports = instantiateReactComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28941,7 +28313,7 @@ function isTextInputElement(elem) {
 module.exports = isTextInputElement;
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28998,7 +28370,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setTextContent;
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29182,7 +28554,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29202,7 +28574,7 @@ var _extends = Object.assign || function (target) {
   }return target;
 };
 
-var _chainFunction = __webpack_require__(170);
+var _chainFunction = __webpack_require__(169);
 
 var _chainFunction2 = _interopRequireDefault(_chainFunction);
 
@@ -29481,7 +28853,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29538,7 +28910,7 @@ var nameShape = exports.nameShape = _propTypes2.default.oneOfType([_propTypes2.d
 })]);
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29559,7 +28931,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(36),
     _assign = __webpack_require__(3);
 
-var ReactNoopUpdateQueue = __webpack_require__(164);
+var ReactNoopUpdateQueue = __webpack_require__(163);
 
 var canDefineProperty = __webpack_require__(61);
 var emptyObject = __webpack_require__(20);
@@ -29689,7 +29061,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29714,7 +29086,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29746,7 +29118,7 @@ var ReactElement = __webpack_require__(28);
 var checkReactTypeSpec = __webpack_require__(359);
 
 var canDefineProperty = __webpack_require__(61);
-var getIteratorFn = __webpack_require__(165);
+var getIteratorFn = __webpack_require__(164);
 var warning = __webpack_require__(2);
 var lowPriorityWarning = __webpack_require__(100);
 
@@ -29977,7 +29349,7 @@ module.exports = ReactElementValidator;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30078,7 +29450,7 @@ module.exports = ReactNoopUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30124,7 +29496,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -30138,7 +29510,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(167)(content, options);
+var update = __webpack_require__(166)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -30155,7 +29527,7 @@ if(false) {
 }
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -30514,7 +29886,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
@@ -30523,7 +29895,7 @@ module.exports = __webpack_amd_options__;
 /* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30547,7 +29919,7 @@ var _epiqAppsupportChatwindowComponent = __webpack_require__(263);
 
 var _epiqAppsupportChatwindowComponent2 = _interopRequireDefault(_epiqAppsupportChatwindowComponent);
 
-__webpack_require__(166);
+__webpack_require__(165);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30596,7 +29968,7 @@ var SupportAppComponent = function (_React$Component) {
 exports.default = SupportAppComponent;
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30624,7 +29996,7 @@ module.exports = function chain() {
 };
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30671,7 +30043,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	if (typeof module !== 'undefined' && module.exports) {
 		module.exports = classNames;
-	} else if ("function" === 'function' && _typeof(__webpack_require__(168)) === 'object' && __webpack_require__(168)) {
+	} else if ("function" === 'function' && _typeof(__webpack_require__(167)) === 'object' && __webpack_require__(167)) {
 		// register as 'classnames', consistent with npm package name
 		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
 			return classNames;
@@ -30683,7 +30055,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 })();
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31424,7 +30796,7 @@ module.exports = factory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31435,7 +30807,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = addClass;
 
-var _hasClass = __webpack_require__(174);
+var _hasClass = __webpack_require__(173);
 
 var _hasClass2 = _interopRequireDefault(_hasClass);
 
@@ -31449,7 +30821,7 @@ function addClass(element, className) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31465,7 +30837,7 @@ function hasClass(element, className) {
 module.exports = exports["default"];
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31476,7 +30848,7 @@ module.exports = function removeClass(element, className) {
 };
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31592,7 +30964,7 @@ function getTransitionProperties() {
 }
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31651,6 +31023,634 @@ compatRaf.cancel = function (id) {
 };
 exports.default = compatRaf;
 module.exports = exports['default'];
+
+/***/ }),
+/* 177 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+/* 
+Copyright 2017 Dicky Suryadi
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+ */
+
+// Our namespace.
+var dotnetify = typeof dotnetify === "undefined" ? {} : dotnetify;
+
+// Support using either AMD or CommonJS that loads our app.js, or being placed in <script> tag.
+(function (factory) {
+   if (true) {
+      !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(261), __webpack_require__(178), __webpack_require__(62), __webpack_require__(366)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+   } else if ((typeof exports === "undefined" ? "undefined" : _typeof(exports)) === "object" && (typeof module === "undefined" ? "undefined" : _typeof(module)) === "object") {
+      if (typeof window.jQuery === "undefined") window.jQuery = require('jquery');
+      module.exports = factory(require('react'), require('react-dom'), window.jQuery, require('signalr'));
+   } else {
+      factory(React, ReactDOM, jQuery);
+   }
+})(function (_React, _ReactDOM, $) {
+
+   // SignalR hub auto-generated from /signalr/hubs.
+   /// <reference path="..\..\SignalR.Client.JS\Scripts\jquery-1.6.4.js" />
+   /// <reference path="jquery.signalR.js" />
+   (function ($, window, undefined) {
+      /// <param name="$" type="jQuery" />
+      "use strict";
+
+      if (typeof $.signalR !== "function") {
+         throw new Error("SignalR: SignalR is not loaded. Please ensure jquery.signalR-x.js is referenced before ~/signalr/js.");
+      }
+
+      var signalR = $.signalR;
+
+      function makeProxyCallback(hub, callback) {
+         return function () {
+            // Call the client hub method
+            callback.apply(hub, $.makeArray(arguments));
+         };
+      }
+
+      function registerHubProxies(instance, shouldSubscribe) {
+         var key, hub, memberKey, memberValue, subscriptionMethod;
+
+         for (key in instance) {
+            if (instance.hasOwnProperty(key)) {
+               hub = instance[key];
+
+               if (!hub.hubName) {
+                  // Not a client hub
+                  continue;
+               }
+
+               if (shouldSubscribe) {
+                  // We want to subscribe to the hub events
+                  subscriptionMethod = hub.on;
+               } else {
+                  // We want to unsubscribe from the hub events
+                  subscriptionMethod = hub.off;
+               }
+
+               // Loop through all members on the hub and find client hub functions to subscribe/unsubscribe
+               for (memberKey in hub.client) {
+                  if (hub.client.hasOwnProperty(memberKey)) {
+                     memberValue = hub.client[memberKey];
+
+                     if (!$.isFunction(memberValue)) {
+                        // Not a client hub function
+                        continue;
+                     }
+
+                     subscriptionMethod.call(hub, memberKey, makeProxyCallback(hub, memberValue));
+                  }
+               }
+            }
+         }
+      }
+
+      $.hubConnection.prototype.createHubProxies = function () {
+         var proxies = {};
+         this.starting(function () {
+            // Register the hub proxies as subscribed
+            // (instance, shouldSubscribe)
+            registerHubProxies(proxies, true);
+
+            this._registerSubscribedHubs();
+         }).disconnected(function () {
+            // Unsubscribe all hub proxies when we "disconnect".  This is to ensure that we do not re-add functional call backs.
+            // (instance, shouldSubscribe)
+            registerHubProxies(proxies, false);
+         });
+
+         proxies['dotNetifyHub'] = this.createHubProxy('dotNetifyHub');
+         proxies['dotNetifyHub'].client = {};
+         proxies['dotNetifyHub'].server = {
+            dispose_VM: function dispose_VM(vmId) {
+               return proxies['dotNetifyHub'].invoke.apply(proxies['dotNetifyHub'], $.merge(["Dispose_VM"], $.makeArray(arguments)));
+            },
+
+            request_VM: function request_VM(vmId, vmArg) {
+               return proxies['dotNetifyHub'].invoke.apply(proxies['dotNetifyHub'], $.merge(["Request_VM"], $.makeArray(arguments)));
+            },
+
+            update_VM: function update_VM(vmId, vmData) {
+               return proxies['dotNetifyHub'].invoke.apply(proxies['dotNetifyHub'], $.merge(["Update_VM"], $.makeArray(arguments)));
+            }
+         };
+
+         return proxies;
+      };
+
+      signalR.hub = $.hubConnection("/signalr", { useDefaultPath: false });
+      $.extend(signalR, signalR.hub.createHubProxies());
+   })($, window);
+
+   dotnetify = $.extend(dotnetify, {
+      // SignalR hub.
+      hub: null,
+      hubServer: $.connection.dotNetifyHub.server,
+      hubOptions: { "transport": ["webSockets", "longPolling"] },
+
+      // Debug mode.
+      debug: true,
+      debugFn: null,
+
+      // Offline mode.
+      offline: false,
+      isOffline: true,
+      offlineTimeout: 5000,
+      offlineCacheFn: null,
+
+      _connectRetry: 0,
+      isConnected: function isConnected() {
+         return $.connection.hub.state == $.signalR.connectionState.connected;
+      }
+   });
+
+   dotnetify.react = $.extend(dotnetify.hasOwnProperty("react") ? dotnetify.react : {}, {
+      version: "1.0.2-beta",
+      viewModels: {},
+      plugins: {},
+
+      // Initializes connection to SignalR server hub.
+      init: function init() {
+         var self = dotnetify.react;
+         var getInitialStates = function getInitialStates() {
+            for (var vmId in self.viewModels) {
+               if (!self.viewModels[vmId].$requested) self.viewModels[vmId].$request();
+            }
+         };
+
+         if (dotnetify.hub === null) {
+            // Setup SignalR server method handler.
+            var hub = $.connection.dotNetifyHub;
+            hub.client.response_VM = function (iVMId, iVMData) {
+
+               // Report unauthorized access.
+               if (iVMData == "403") {
+                  console.error("Unauthorized access to " + iVMId);
+                  return;
+               }
+
+               if (self.viewModels.hasOwnProperty(iVMId)) self.viewModels[iVMId].$update(iVMData);else
+                  // If we get to this point, that means the server holds a view model instance
+                  // whose view no longer existed.  So, tell the server to dispose the view model.
+                  hub.server.dispose_VM(iVMId);
+            };
+
+            // Start SignalR hub connection, and if successful, apply the widget to all scoped elements.
+            var startHub = function startHub() {
+               var hub = typeof dotnetify.hubOptions === "undefined" ? $.connection.hub.start() : $.connection.hub.start(dotnetify.hubOptions);
+               hub.done(function () {
+                  dotnetify._connectRetry = 0;
+                  getInitialStates();
+               }).fail(function (e) {
+                  console.error(e);
+               });
+
+               // If offline mode is enabled, apply the widget anyway when there's no connection.
+               setTimeout(function () {
+                  if (dotnetify.offline && !dotnetify.isConnected()) {
+                     getInitialStates();
+                     dotnetify.isOffline = true;
+                     $(document).trigger("offline", dotnetify.isOffline);
+                  }
+               }, dotnetify.offlineTimeout);
+
+               return hub;
+            };
+            dotnetify.hub = startHub();
+
+            // On disconnected, keep attempting to start the connection in increasing interval.
+            $.connection.hub.disconnected(function () {
+               setTimeout(function () {
+                  dotnetify.hub = startHub();
+               }, dotnetify._connectRetry * 5000 + 500);
+
+               if (dotnetify._connectRetry < 3) dotnetify._connectRetry++;
+            });
+
+            // Use SignalR event to raise the offline event with true/false argument.
+            $.connection.hub.stateChanged(function (state) {
+               var stateText = { 0: 'connecting', 1: 'connected', 2: 'reconnecting', 4: 'disconnected' };
+               console.log("SignalR: " + stateText[state.newState]);
+
+               var isOffline = state.newState != 1;
+               if (dotnetify.isOffline != isOffline) {
+                  dotnetify.isOffline = isOffline;
+                  $(document).trigger("offline", dotnetify.isOffline);
+               }
+            });
+         } else if (dotnetify.isConnected()) dotnetify.hub.done(getInitialStates);else if (dotnetify.offline) getInitialStates();
+      },
+
+      // Connects to a server view model.
+      connect: function connect(iVMId, iReact, iGetState, iSetState, iVMArg) {
+         if (dotnetify.ssr) return dotnetify.react.ssrConnect(iVMId, iReact, iVMArg);
+
+         var self = dotnetify.react;
+         if (!self.viewModels.hasOwnProperty(iVMId)) self.viewModels[iVMId] = new dotnetifyVM(iVMId, iReact, iGetState, iSetState, iVMArg);else console.error("Component is attempting to connect to an already active '" + iVMId + "'.  If it's from a dismounted component, you must add vm.$destroy to componentWillUnmount().");
+
+         self.init();
+         return self.viewModels[iVMId];
+      },
+
+      // Used by server-side rendering in lieu of connect method.
+      ssrConnect: function ssrConnect(iVMId, iReact, iVMArg) {
+         if (window.ssr == null || !window.ssr.hasOwnProperty(iVMId)) console.error("Server-side rendering requires initial state in 'window.ssr." + iVMId + "'.");
+
+         var self = dotnetify.react;
+         var vmState = window.ssr[iVMId];
+         var getState = function getState() {
+            return vmState;
+         };
+         var setState = function setState(state) {
+            vmState = $.extend(vmState, state);
+         };
+         var vm = self.viewModels[iVMId] = new dotnetifyVM(iVMId, iReact, getState, setState, iVMArg);
+
+         // Need to be asynch to allow initial state to be processed.
+         setTimeout(function () {
+            vm.$update(JSON.stringify(window.ssr[iVMId]));
+         }, 100);
+         return vm;
+      }
+   });
+
+   // Client-side view model that acts as a proxy of the server view model.
+   // iVMId - identifies the view model.
+   // iReact - React component.
+   // iGetState - React state accessor (optional).
+   // iSetState - React state mutator (optional).
+   // iVMArg - view model arguments (optional).
+   function dotnetifyVM(iVMId, iReact, iGetState, iSetState, iVMArg) {
+
+      this.$vmId = iVMId;
+      this.$component = iReact;
+      this.$vmArg = iVMArg;
+      this.$requested = false;
+      this.$loaded = false;
+      this.$itemKey = {};
+
+      if (typeof iGetState !== "function") {
+         this.$vmArg = iGetState;
+         iGetState = function iGetState() {
+            return iReact.state;
+         };
+         iSetState = function iSetState(state) {
+            iReact.setState(state);
+         };
+      }
+
+      if (iReact.props.hasOwnProperty("vmArg")) this.$vmArg = $.extend(this.$vmArg, iReact.props.vmArg);
+
+      this.State = function (state) {
+         return typeof state === "undefined" ? iGetState() : iSetState(state);
+      };
+
+      // Inject plugin functions into this view model.
+      for (var pluginId in dotnetify.react.plugins) {
+         var plugin = dotnetify.react.plugins[pluginId];
+         if (plugin.hasOwnProperty("$inject")) plugin.$inject(this);
+      }
+   }
+
+   // Disposes the view model, both here and on the server.
+   dotnetifyVM.prototype.$destroy = function () {
+
+      // Call any plugin's $destroy function if provided.
+      for (var pluginId in dotnetify.react.plugins) {
+         var plugin = dotnetify.react.plugins[pluginId];
+         if (typeof plugin["$destroy"] === "function") plugin.$destroy.apply(this);
+      }
+      dotnetify.hubServer.dispose_VM(this.$vmId);
+      delete dotnetify.react.viewModels[this.$vmId];
+   };
+
+   // Dispatches a value to the server view model.
+   // iValue - Vvalue to dispatch.
+   dotnetifyVM.prototype.$dispatch = function (iValue) {
+
+      if (dotnetify.isConnected()) {
+         try {
+            dotnetify.hubServer.update_VM(this.$vmId, iValue);
+
+            if (dotnetify.debug) {
+               console.log("[" + this.$vmId + "] sent> ");
+               console.log(iValue);
+
+               if (dotnetify.debugFn != null) dotnetify.debugFn(this.$vmId, "sent", iValue);
+            }
+         } catch (e) {
+            console.error(e);
+         }
+      }
+   };
+
+   // Dispatches a state value to the server view model.
+   // iValue - State value to dispatch.
+   dotnetifyVM.prototype.$dispatchListState = function (iValue) {
+      for (var listName in iValue) {
+         var key = this.$itemKey[listName];
+         if (!key) {
+            console.error("[" + this.$vmId + "] missing item key for '" + listName + "'; add " + listName + "_itemKey property to the view model.");
+            return;
+         }
+         var item = iValue[listName];
+         if (!item[key]) {
+            console.error("[" + this.$vmId + "] couldn't dispatch data from '" + listName + "' due to missing property '" + key + "'");
+            console.error(item);
+            return;
+         }
+         for (var prop in item) {
+            if (prop != key) {
+               var state = {};
+               state[listName + ".$" + item[key] + "." + prop] = item[prop];
+               this.$dispatch(state);
+            }
+         }
+
+         this.$updateList(listName, item);
+      }
+   };
+
+   // Loads an HTML view.
+   dotnetifyVM.prototype.$loadHtmlView = function (iTargetSelector, iViewUrl, iJsModuleUrl, iVmArg, callbackFn) {
+      var vm = this;
+
+      try {
+         // Unmount any React component before replacing with a new DOM. 
+         _ReactDOM.unmountComponentAtNode(document.querySelector(iTargetSelector));
+      } catch (e) {
+         console.error(e);
+      }
+
+      // Load the HTML view.
+      $(iTargetSelector).load(iViewUrl, null, function () {
+         if (iJsModuleUrl != null) {
+            $.getScript(iJsModuleUrl, function () {
+               if (typeof callbackFn === "function") callbackFn.call(vm);
+            });
+         } else if (typeof callbackFn === "function") callbackFn.call(vm);
+      });
+   };
+
+   // Loads a React view.
+   dotnetifyVM.prototype.$loadReactView = function (iTargetSelector, iReactClassName, iJsModuleUrl, iVmArg, iReactProps, callbackFn) {
+      var vm = this;
+      var createViewFunc = function createViewFunc() {
+         if (!window.hasOwnProperty(iReactClassName)) {
+            console.error("[" + vm.$vmId + "] failed to load view '" + iReactClassName + "' because it's not a React element.");
+            return;
+         }
+
+         try {
+            var reactElement = _React.createElement(window[iReactClassName], iReactProps);
+            _ReactDOM.render(reactElement, document.querySelector(iTargetSelector));
+         } catch (e) {
+            console.error(e);
+         }
+         if (typeof callbackFn === "function") callbackFn.call(vm, reactElement);
+      };
+
+      if (iJsModuleUrl == null) createViewFunc();else {
+         // Load all javascripts first. Multiple files can be specified with comma delimiter.
+         var getScripts = iJsModuleUrl.split(",").map(function (i) {
+            return $.getScript(i);
+         });
+         getScripts.push($.Deferred(function (deferred) {
+            $(deferred.resolve);
+         }));
+
+         $.when.apply($, getScripts).done(createViewFunc);
+      }
+   };
+
+   // Preprocess view model update from the server before we set the state.
+   dotnetifyVM.prototype.$preProcess = function (iVMUpdate) {
+      var vm = this;
+
+      for (var prop in iVMUpdate) {
+         // Look for property that end with '_add'. Interpret the value as a list item to be added 
+         // to an existing list whose property name precedes that suffix.
+         var match = /(.*)_add/.exec(prop);
+         if (match != null) {
+            var listName = match[1];
+            if (Array.isArray(this.State()[listName])) vm.$addList(listName, iVMUpdate[prop]);else console.error("unable to resolve " + prop);
+            delete iVMUpdate[prop];
+            continue;
+         }
+
+         // Look for property that end with '_update'. Interpret the value as a list item to be updated 
+         // to an existing list whose property name precedes that suffix.
+         var match = /(.*)_update/.exec(prop);
+         if (match != null) {
+            var listName = match[1];
+            if (Array.isArray(this.State()[listName])) vm.$updateList(listName, iVMUpdate[prop]);else console.error("[" + this.$vmId + "] '" + listName + "' is not found or not an array.");
+            delete iVMUpdate[prop];
+            continue;
+         }
+
+         // Look for property that end with '_remove'. Interpret the value as a list item key to remove
+         // from an existing list whose property name precedes that suffix.
+         var match = /(.*)_remove/.exec(prop);
+         if (match != null) {
+            var listName = match[1];
+            if (Array.isArray(this.State()[listName])) {
+               var key = this.$itemKey[listName];
+               if (key != null) vm.$removeList(listName, function (i) {
+                  return i[key] == iVMUpdate[prop];
+               });else console.error("[" + this.$vmId + "] missing item key for '" + listName + "'; add " + listName + "_itemKey property to the view model.");
+            } else console.error("[" + this.$vmId + "] '" + listName + "' is not found or not an array.");
+            delete iVMUpdate[prop];
+            continue;
+         }
+
+         // Look for property that end with '_itemKey'. Interpret the value as the property name that will
+         // uniquely identify items in the list.
+         var match = /(.*)_itemKey/.exec(prop);
+         if (match != null) {
+            var listName = match[1];
+            var itemKey = {};
+            itemKey[listName] = iVMUpdate[prop];
+            vm.$setItemKey(itemKey);
+            delete iVMUpdate[prop];
+            continue;
+         }
+      }
+   },
+
+   // Requests state from the server view model.
+   dotnetifyVM.prototype.$request = function () {
+      if (dotnetify.isConnected()) {
+         dotnetify.hubServer.request_VM(this.$vmId, this.$vmArg);
+         this.$requested = true;
+      }
+   };
+
+   // Updates state from the server view model to the view.
+   // iVMData - Serialized state from the server.
+   dotnetifyVM.prototype.$update = function (iVMData) {
+      if (dotnetify.debug) {
+         console.log("[" + this.$vmId + "] received> ");
+         console.log(JSON.parse(iVMData));
+
+         if (dotnetify.debugFn != null) dotnetify.debugFn(this.$vmId, "received", JSON.parse(iVMData));
+      }
+
+      var vmData = JSON.parse(iVMData);
+      this.$preProcess(vmData);
+
+      var state = this.State();
+      state = $.extend(state, vmData);
+      this.State(state);
+
+      if (!this.$loaded) this.$onLoad();
+   };
+
+   // Handles initial view model load event.
+   dotnetifyVM.prototype.$onLoad = function () {
+
+      // Call any plugin's $ready function if provided to give a chance to do
+      // things when the view model is ready.
+      for (var pluginId in dotnetify.react.plugins) {
+         var plugin = dotnetify.react.plugins[pluginId];
+         if (typeof plugin["$ready"] === "function") plugin.$ready.apply(this);
+      }
+      this.$loaded = true;
+   };
+
+   // *** CRUD Functions ***
+
+   // Sets items key to identify individual items in a list.
+   // Accepts object literal: { "<list name>": "<key prop name>", ... }
+   dotnetifyVM.prototype.$setItemKey = function (iItemKey) {
+      this.$itemKey = iItemKey;
+   };
+
+   //// Adds a new item to a state array.
+   dotnetifyVM.prototype.$addList = function (iListName, iNewItem) {
+      // Check if the list already has an item with the same key. If so, replace it.
+      var key = this.$itemKey[iListName];
+      if (key != null) {
+         if (!iNewItem.hasOwnProperty(key)) {
+            console.error("[" + this.$vmId + "] couldn't add item to '" + iListName + "' due to missing property '" + key + "'");
+            return;
+         }
+         var match = this.State()[iListName].filter(function (i) {
+            return i[key] == iNewItem[key];
+         });
+         if (match.length > 0) {
+            console.error("[" + this.$vmId + "] couldn't add item to '" + listName + "' because the key already exists");
+            return;
+         }
+      }
+
+      var items = this.State()[iListName];
+      items.push(iNewItem);
+
+      var state = {};
+      state[iListName] = items;
+      this.State(state);
+   };
+
+   // Removes an item from a state array.
+   dotnetifyVM.prototype.$removeList = function (iListName, iFilter) {
+      var state = {};
+      state[iListName] = this.State()[iListName].filter(function (i) {
+         return !iFilter(i);
+      });
+      this.State(state);
+   };
+
+   //// Updates existing item to an observable array.
+   dotnetifyVM.prototype.$updateList = function (iListName, iNewItem) {
+
+      // Check if the list already has an item with the same key. If so, update it.
+      var key = this.$itemKey[iListName];
+      if (key != null) {
+         if (!iNewItem.hasOwnProperty(key)) {
+            console.error("[" + this.$vmId + "] couldn't update item to '" + iListName + "' due to missing property '" + key + "'");
+            return;
+         }
+         var state = {};
+         state[iListName] = this.State()[iListName].map(function (i) {
+            return i[key] == iNewItem[key] ? $.extend(i, iNewItem) : i;
+         });
+         this.State(state);
+      } else console.error("[" + this.$vmId + "] missing item key for '" + listName + "'; add " + listName + "_itemKey property to the view model.");
+   };
+
+   // The <Scope> component uses React's 'context' to pass down the component hierarchy the name of the back-end view model
+   // of the parent component, so that when the child component connects to its back-end view model, the child view model
+   // instance is created within the scope of the parent view model.
+   // The <Scope> component also provides the 'connect' function for a component to connect to the back-end view model and
+   // injects properties and dispatch functions into the component.
+   dotnetify.react.Scope = _React.createClass({
+      displayName: "Scope",
+
+      propTypes: { vm: _React.PropTypes.string },
+      contextTypes: { scoped: _React.PropTypes.func },
+      childContextTypes: {
+         scoped: _React.PropTypes.func.isRequired,
+         connect: _React.PropTypes.func.isRequired
+      },
+      scoped: function scoped(vmId) {
+         var scope = this.context.scoped ? this.context.scoped(this.props.vm) : this.props.vm;
+         return scope ? scope + "." + vmId : vmId;
+      },
+      getChildContext: function getChildContext() {
+         var _this = this;
+
+         return {
+            scoped: function scoped(vmId) {
+               return _this.scoped(vmId);
+            },
+            connect: function connect(vmId, component, compGetState, compSetState, vmArg) {
+               var getState = typeof compGetState === "function" ? compGetState : function () {
+                  return component.state;
+               };
+               var setState = typeof compSetState === "function" ? compSetState : function (state) {
+                  return component.setState(state);
+               };
+               if (typeof compGetState !== "function") vmArg = compGetState;
+
+               component.vmId = _this.scoped(vmId);
+               component.vm = dotnetify.react.connect(component.vmId, component, getState, setState, vmArg);
+               component.dispatch = function (state) {
+                  return component.vm.$dispatch(state);
+               };
+               component.dispatchState = function (state) {
+                  setState(state);
+                  component.vm.$dispatch(state);
+               };
+               return window.vmStates ? window.vmStates[component.vmId] : null;
+            }
+         };
+      },
+      render: function render() {
+         return this.props.children;
+      }
+   });
+
+   return dotnetify;
+});
 
 /***/ }),
 /* 178 */
@@ -32178,14 +32178,14 @@ module.exports = BeforeInputEventPlugin;
 
 
 
-var CSSProperty = __webpack_require__(104);
+var CSSProperty = __webpack_require__(103);
 var ExecutionEnvironment = __webpack_require__(4);
 var ReactInstrumentation = __webpack_require__(12);
 
-var camelizeStyleName = __webpack_require__(128);
+var camelizeStyleName = __webpack_require__(127);
 var dangerousStyleValue = __webpack_require__(240);
-var hyphenateStyleName = __webpack_require__(132);
-var memoizeStringOnly = __webpack_require__(133);
+var hyphenateStyleName = __webpack_require__(131);
+var memoizeStringOnly = __webpack_require__(132);
 var warning = __webpack_require__(2);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -32402,7 +32402,7 @@ var SyntheticEvent = __webpack_require__(19);
 
 var getEventTarget = __webpack_require__(75);
 var isEventSupported = __webpack_require__(76);
-var isTextInputElement = __webpack_require__(122);
+var isTextInputElement = __webpack_require__(121);
 
 var eventTypes = {
   change: {
@@ -32724,7 +32724,7 @@ var _prodInvariant = __webpack_require__(5);
 var DOMLazyTree = __webpack_require__(29);
 var ExecutionEnvironment = __webpack_require__(4);
 
-var createNodesFromMarkup = __webpack_require__(130);
+var createNodesFromMarkup = __webpack_require__(129);
 var emptyFunction = __webpack_require__(7);
 var invariant = __webpack_require__(1);
 
@@ -32913,7 +32913,7 @@ var _assign = __webpack_require__(3);
 
 var PooledClass = __webpack_require__(24);
 
-var getTextContentAccessor = __webpack_require__(120);
+var getTextContentAccessor = __webpack_require__(119);
 
 /**
  * This helper class stores information about text content of a target node,
@@ -33228,10 +33228,10 @@ module.exports = HTMLDOMPropertyConfig;
 
 var ReactReconciler = __webpack_require__(30);
 
-var instantiateReactComponent = __webpack_require__(121);
+var instantiateReactComponent = __webpack_require__(120);
 var KeyEscapeUtils = __webpack_require__(67);
 var shouldUpdateReactComponent = __webpack_require__(77);
-var traverseAllChildren = __webpack_require__(124);
+var traverseAllChildren = __webpack_require__(123);
 var warning = __webpack_require__(2);
 
 var ReactComponentTreeHook;
@@ -33432,7 +33432,7 @@ var ReactCurrentOwner = __webpack_require__(16);
 var ReactErrorUtils = __webpack_require__(70);
 var ReactInstanceMap = __webpack_require__(39);
 var ReactInstrumentation = __webpack_require__(12);
-var ReactNodeTypes = __webpack_require__(114);
+var ReactNodeTypes = __webpack_require__(113);
 var ReactReconciler = __webpack_require__(30);
 
 if (process.env.NODE_ENV !== 'production') {
@@ -34335,13 +34335,13 @@ module.exports = ReactCompositeComponent;
 
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactDefaultInjection = __webpack_require__(209);
-var ReactMount = __webpack_require__(113);
+var ReactMount = __webpack_require__(112);
 var ReactReconciler = __webpack_require__(30);
 var ReactUpdates = __webpack_require__(15);
 var ReactVersion = __webpack_require__(224);
 
 var findDOMNode = __webpack_require__(241);
-var getHostComponentFromComposite = __webpack_require__(119);
+var getHostComponentFromComposite = __webpack_require__(118);
 var renderSubtreeIntoContainer = __webpack_require__(249);
 var warning = __webpack_require__(2);
 
@@ -34460,15 +34460,15 @@ var CSSPropertyOperations = __webpack_require__(182);
 var DOMLazyTree = __webpack_require__(29);
 var DOMNamespaces = __webpack_require__(65);
 var DOMProperty = __webpack_require__(22);
-var DOMPropertyOperations = __webpack_require__(106);
+var DOMPropertyOperations = __webpack_require__(105);
 var EventPluginHub = __webpack_require__(37);
 var EventPluginRegistry = __webpack_require__(46);
 var ReactBrowserEventEmitter = __webpack_require__(47);
-var ReactDOMComponentFlags = __webpack_require__(107);
+var ReactDOMComponentFlags = __webpack_require__(106);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactDOMInput = __webpack_require__(198);
 var ReactDOMOption = __webpack_require__(201);
-var ReactDOMSelect = __webpack_require__(108);
+var ReactDOMSelect = __webpack_require__(107);
 var ReactDOMTextarea = __webpack_require__(204);
 var ReactInstrumentation = __webpack_require__(12);
 var ReactMultiChild = __webpack_require__(217);
@@ -35627,7 +35627,7 @@ module.exports = ReactDOMIDOperations;
 var _prodInvariant = __webpack_require__(5),
     _assign = __webpack_require__(3);
 
-var DOMPropertyOperations = __webpack_require__(106);
+var DOMPropertyOperations = __webpack_require__(105);
 var LinkedValueUtils = __webpack_require__(68);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactUpdates = __webpack_require__(15);
@@ -36060,7 +36060,7 @@ var _assign = __webpack_require__(3);
 
 var React = __webpack_require__(31);
 var ReactDOMComponentTree = __webpack_require__(9);
-var ReactDOMSelect = __webpack_require__(108);
+var ReactDOMSelect = __webpack_require__(107);
 
 var warning = __webpack_require__(2);
 var didWarnInvalidOptionChildren = false;
@@ -36188,7 +36188,7 @@ module.exports = ReactDOMOption;
 var ExecutionEnvironment = __webpack_require__(4);
 
 var getNodeForCharacterOffset = __webpack_require__(246);
-var getTextContentAccessor = __webpack_require__(120);
+var getTextContentAccessor = __webpack_require__(119);
 
 /**
  * While `isCollapsed` is available on the Selection object and `collapsed`
@@ -37006,7 +37006,7 @@ var ReactHostOperationHistoryHook = __webpack_require__(213);
 var ReactComponentTreeHook = __webpack_require__(10);
 var ExecutionEnvironment = __webpack_require__(4);
 
-var performanceNow = __webpack_require__(134);
+var performanceNow = __webpack_require__(133);
 var warning = __webpack_require__(2);
 
 var hooks = [];
@@ -37603,7 +37603,7 @@ var ReactDOMComponentTree = __webpack_require__(9);
 var ReactUpdates = __webpack_require__(15);
 
 var getEventTarget = __webpack_require__(75);
-var getUnboundedScrollPosition = __webpack_require__(131);
+var getUnboundedScrollPosition = __webpack_require__(130);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -37797,9 +37797,9 @@ var DOMProperty = __webpack_require__(22);
 var EventPluginHub = __webpack_require__(37);
 var EventPluginUtils = __webpack_require__(66);
 var ReactComponentEnvironment = __webpack_require__(69);
-var ReactEmptyComponent = __webpack_require__(109);
+var ReactEmptyComponent = __webpack_require__(108);
 var ReactBrowserEventEmitter = __webpack_require__(47);
-var ReactHostComponent = __webpack_require__(111);
+var ReactHostComponent = __webpack_require__(110);
 var ReactUpdates = __webpack_require__(15);
 
 var ReactInjection = {
@@ -38519,10 +38519,10 @@ module.exports = ReactPropTypeLocationNames;
 
 var _assign = __webpack_require__(3);
 
-var CallbackQueue = __webpack_require__(105);
+var CallbackQueue = __webpack_require__(104);
 var PooledClass = __webpack_require__(24);
 var ReactBrowserEventEmitter = __webpack_require__(47);
-var ReactInputSelection = __webpack_require__(112);
+var ReactInputSelection = __webpack_require__(111);
 var ReactInstrumentation = __webpack_require__(12);
 var Transaction = __webpack_require__(49);
 var ReactUpdateQueue = __webpack_require__(71);
@@ -39366,11 +39366,11 @@ module.exports = SVGDOMPropertyConfig;
 var EventPropagators = __webpack_require__(38);
 var ExecutionEnvironment = __webpack_require__(4);
 var ReactDOMComponentTree = __webpack_require__(9);
-var ReactInputSelection = __webpack_require__(112);
+var ReactInputSelection = __webpack_require__(111);
 var SyntheticEvent = __webpack_require__(19);
 
 var getActiveElement = __webpack_require__(54);
-var isTextInputElement = __webpack_require__(122);
+var isTextInputElement = __webpack_require__(121);
 var shallowEqual = __webpack_require__(32);
 
 var skipSelectionChangeEvent = ExecutionEnvironment.canUseDOM && 'documentMode' in document && document.documentMode <= 11;
@@ -40341,7 +40341,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(5);
 
 var ReactPropTypeLocationNames = __webpack_require__(219);
-var ReactPropTypesSecret = __webpack_require__(115);
+var ReactPropTypesSecret = __webpack_require__(114);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -40431,7 +40431,7 @@ module.exports = checkReactTypeSpec;
 
 
 
-var CSSProperty = __webpack_require__(104);
+var CSSProperty = __webpack_require__(103);
 var warning = __webpack_require__(2);
 
 var isUnitlessNumber = CSSProperty.isUnitlessNumber;
@@ -40522,7 +40522,7 @@ var ReactCurrentOwner = __webpack_require__(16);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactInstanceMap = __webpack_require__(39);
 
-var getHostComponentFromComposite = __webpack_require__(119);
+var getHostComponentFromComposite = __webpack_require__(118);
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
@@ -40586,7 +40586,7 @@ module.exports = findDOMNode;
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var KeyEscapeUtils = __webpack_require__(67);
-var traverseAllChildren = __webpack_require__(124);
+var traverseAllChildren = __webpack_require__(123);
 var warning = __webpack_require__(2);
 
 var ReactComponentTreeHook;
@@ -41061,7 +41061,7 @@ module.exports = quoteAttributeValueForBrowser;
 
 
 
-var ReactMount = __webpack_require__(113);
+var ReactMount = __webpack_require__(112);
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
@@ -42192,7 +42192,7 @@ var ReactElement = __webpack_require__(25);
  */
 var createDOMFactory = ReactElement.createFactory;
 if (process.env.NODE_ENV !== 'production') {
-  var ReactElementValidator = __webpack_require__(126);
+  var ReactElementValidator = __webpack_require__(125);
   createDOMFactory = ReactElementValidator.createFactory;
 }
 
@@ -42363,7 +42363,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var ReactElement = __webpack_require__(25);
 var ReactPropTypeLocationNames = __webpack_require__(81);
-var ReactPropTypesSecret = __webpack_require__(127);
+var ReactPropTypesSecret = __webpack_require__(126);
 
 var emptyFunction = __webpack_require__(7);
 var getIteratorFn = __webpack_require__(83);
@@ -42872,7 +42872,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(26);
 
 var ReactPropTypeLocationNames = __webpack_require__(81);
-var ReactPropTypesSecret = __webpack_require__(127);
+var ReactPropTypesSecret = __webpack_require__(126);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -43011,7 +43011,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(26);
 
 var ReactCurrentOwner = __webpack_require__(16);
-var REACT_ELEMENT_TYPE = __webpack_require__(125);
+var REACT_ELEMENT_TYPE = __webpack_require__(124);
 
 var getIteratorFn = __webpack_require__(83);
 var invariant = __webpack_require__(1);
@@ -43199,10 +43199,6 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _dotnetify = __webpack_require__(103);
-
-var _dotnetify2 = _interopRequireDefault(_dotnetify);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -43217,11 +43213,7 @@ var SupportButtonComponent = function (_React$Component) {
     function SupportButtonComponent(props) {
         _classCallCheck(this, SupportButtonComponent);
 
-        var _this = _possibleConstructorReturn(this, (SupportButtonComponent.__proto__ || Object.getPrototypeOf(SupportButtonComponent)).call(this, props));
-
-        _dotnetify2.default.react.connect("SayHiVM", _this);
-        _this.state = { Greetings: "", ServerTime: "" };
-        return _this;
+        return _possibleConstructorReturn(this, (SupportButtonComponent.__proto__ || Object.getPrototypeOf(SupportButtonComponent)).call(this, props));
     }
 
     _createClass(SupportButtonComponent, [{
@@ -43258,7 +43250,7 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _dotnetify = __webpack_require__(103);
+var _dotnetify = __webpack_require__(177);
 
 var _dotnetify2 = _interopRequireDefault(_dotnetify);
 
@@ -43266,7 +43258,7 @@ var _reactChatBubble = __webpack_require__(276);
 
 var _reactChatBubble2 = _interopRequireDefault(_reactChatBubble);
 
-__webpack_require__(166);
+__webpack_require__(165);
 
 var _reactstrap = __webpack_require__(365);
 
@@ -44807,14 +44799,14 @@ module.exports = BeforeInputEventPlugin;
 
 
 
-var CSSProperty = __webpack_require__(137);
+var CSSProperty = __webpack_require__(136);
 var ExecutionEnvironment = __webpack_require__(4);
 var ReactInstrumentation = __webpack_require__(13);
 
-var camelizeStyleName = __webpack_require__(128);
+var camelizeStyleName = __webpack_require__(127);
 var dangerousStyleValue = __webpack_require__(338);
-var hyphenateStyleName = __webpack_require__(132);
-var memoizeStringOnly = __webpack_require__(133);
+var hyphenateStyleName = __webpack_require__(131);
+var memoizeStringOnly = __webpack_require__(132);
 var warning = __webpack_require__(2);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -45035,10 +45027,10 @@ var ReactDOMComponentTree = __webpack_require__(8);
 var ReactUpdates = __webpack_require__(17);
 var SyntheticEvent = __webpack_require__(21);
 
-var inputValueTracking = __webpack_require__(154);
+var inputValueTracking = __webpack_require__(153);
 var getEventTarget = __webpack_require__(96);
 var isEventSupported = __webpack_require__(97);
-var isTextInputElement = __webpack_require__(156);
+var isTextInputElement = __webpack_require__(155);
 
 var eventTypes = {
   change: {
@@ -45350,7 +45342,7 @@ var _prodInvariant = __webpack_require__(6);
 var DOMLazyTree = __webpack_require__(33);
 var ExecutionEnvironment = __webpack_require__(4);
 
-var createNodesFromMarkup = __webpack_require__(130);
+var createNodesFromMarkup = __webpack_require__(129);
 var emptyFunction = __webpack_require__(7);
 var invariant = __webpack_require__(1);
 
@@ -45535,7 +45527,7 @@ var _assign = __webpack_require__(3);
 
 var PooledClass = __webpack_require__(27);
 
-var getTextContentAccessor = __webpack_require__(153);
+var getTextContentAccessor = __webpack_require__(152);
 
 /**
  * This helper class stores information about text content of a target node,
@@ -45874,10 +45866,10 @@ module.exports = HTMLDOMPropertyConfig;
 
 var ReactReconciler = __webpack_require__(34);
 
-var instantiateReactComponent = __webpack_require__(155);
+var instantiateReactComponent = __webpack_require__(154);
 var KeyEscapeUtils = __webpack_require__(88);
 var shouldUpdateReactComponent = __webpack_require__(98);
-var traverseAllChildren = __webpack_require__(158);
+var traverseAllChildren = __webpack_require__(157);
 var warning = __webpack_require__(2);
 
 var ReactComponentTreeHook;
@@ -46075,7 +46067,7 @@ var ReactCurrentOwner = __webpack_require__(18);
 var ReactErrorUtils = __webpack_require__(91);
 var ReactInstanceMap = __webpack_require__(44);
 var ReactInstrumentation = __webpack_require__(13);
-var ReactNodeTypes = __webpack_require__(147);
+var ReactNodeTypes = __webpack_require__(146);
 var ReactReconciler = __webpack_require__(34);
 
 if (process.env.NODE_ENV !== 'production') {
@@ -46976,13 +46968,13 @@ module.exports = ReactCompositeComponent;
 
 var ReactDOMComponentTree = __webpack_require__(8);
 var ReactDefaultInjection = __webpack_require__(307);
-var ReactMount = __webpack_require__(146);
+var ReactMount = __webpack_require__(145);
 var ReactReconciler = __webpack_require__(34);
 var ReactUpdates = __webpack_require__(17);
 var ReactVersion = __webpack_require__(322);
 
 var findDOMNode = __webpack_require__(339);
-var getHostComponentFromComposite = __webpack_require__(152);
+var getHostComponentFromComposite = __webpack_require__(151);
 var renderSubtreeIntoContainer = __webpack_require__(346);
 var warning = __webpack_require__(2);
 
@@ -47101,15 +47093,15 @@ var CSSPropertyOperations = __webpack_require__(280);
 var DOMLazyTree = __webpack_require__(33);
 var DOMNamespaces = __webpack_require__(86);
 var DOMProperty = __webpack_require__(23);
-var DOMPropertyOperations = __webpack_require__(139);
+var DOMPropertyOperations = __webpack_require__(138);
 var EventPluginHub = __webpack_require__(42);
 var EventPluginRegistry = __webpack_require__(55);
 var ReactBrowserEventEmitter = __webpack_require__(56);
-var ReactDOMComponentFlags = __webpack_require__(140);
+var ReactDOMComponentFlags = __webpack_require__(139);
 var ReactDOMComponentTree = __webpack_require__(8);
 var ReactDOMInput = __webpack_require__(296);
 var ReactDOMOption = __webpack_require__(299);
-var ReactDOMSelect = __webpack_require__(141);
+var ReactDOMSelect = __webpack_require__(140);
 var ReactDOMTextarea = __webpack_require__(302);
 var ReactInstrumentation = __webpack_require__(13);
 var ReactMultiChild = __webpack_require__(315);
@@ -47120,7 +47112,7 @@ var escapeTextContentForBrowser = __webpack_require__(59);
 var invariant = __webpack_require__(1);
 var isEventSupported = __webpack_require__(97);
 var shallowEqual = __webpack_require__(32);
-var inputValueTracking = __webpack_require__(154);
+var inputValueTracking = __webpack_require__(153);
 var validateDOMNesting = __webpack_require__(99);
 var warning = __webpack_require__(2);
 
@@ -48276,7 +48268,7 @@ module.exports = ReactDOMIDOperations;
 var _prodInvariant = __webpack_require__(6),
     _assign = __webpack_require__(3);
 
-var DOMPropertyOperations = __webpack_require__(139);
+var DOMPropertyOperations = __webpack_require__(138);
 var LinkedValueUtils = __webpack_require__(89);
 var ReactDOMComponentTree = __webpack_require__(8);
 var ReactUpdates = __webpack_require__(17);
@@ -48718,7 +48710,7 @@ var _assign = __webpack_require__(3);
 
 var React = __webpack_require__(35);
 var ReactDOMComponentTree = __webpack_require__(8);
-var ReactDOMSelect = __webpack_require__(141);
+var ReactDOMSelect = __webpack_require__(140);
 
 var warning = __webpack_require__(2);
 var didWarnInvalidOptionChildren = false;
@@ -48845,7 +48837,7 @@ module.exports = ReactDOMOption;
 var ExecutionEnvironment = __webpack_require__(4);
 
 var getNodeForCharacterOffset = __webpack_require__(343);
-var getTextContentAccessor = __webpack_require__(153);
+var getTextContentAccessor = __webpack_require__(152);
 
 /**
  * While `isCollapsed` is available on the Selection object and `collapsed`
@@ -49661,7 +49653,7 @@ var ReactHostOperationHistoryHook = __webpack_require__(311);
 var ReactComponentTreeHook = __webpack_require__(11);
 var ExecutionEnvironment = __webpack_require__(4);
 
-var performanceNow = __webpack_require__(134);
+var performanceNow = __webpack_require__(133);
 var warning = __webpack_require__(2);
 
 var hooks = [];
@@ -50257,7 +50249,7 @@ var ReactDOMComponentTree = __webpack_require__(8);
 var ReactUpdates = __webpack_require__(17);
 
 var getEventTarget = __webpack_require__(96);
-var getUnboundedScrollPosition = __webpack_require__(131);
+var getUnboundedScrollPosition = __webpack_require__(130);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -50451,9 +50443,9 @@ var DOMProperty = __webpack_require__(23);
 var EventPluginHub = __webpack_require__(42);
 var EventPluginUtils = __webpack_require__(87);
 var ReactComponentEnvironment = __webpack_require__(90);
-var ReactEmptyComponent = __webpack_require__(142);
+var ReactEmptyComponent = __webpack_require__(141);
 var ReactBrowserEventEmitter = __webpack_require__(56);
-var ReactHostComponent = __webpack_require__(144);
+var ReactHostComponent = __webpack_require__(143);
 var ReactUpdates = __webpack_require__(17);
 
 var ReactInjection = {
@@ -51168,10 +51160,10 @@ module.exports = ReactPropTypeLocationNames;
 
 var _assign = __webpack_require__(3);
 
-var CallbackQueue = __webpack_require__(138);
+var CallbackQueue = __webpack_require__(137);
 var PooledClass = __webpack_require__(27);
 var ReactBrowserEventEmitter = __webpack_require__(56);
-var ReactInputSelection = __webpack_require__(145);
+var ReactInputSelection = __webpack_require__(144);
 var ReactInstrumentation = __webpack_require__(13);
 var Transaction = __webpack_require__(58);
 var ReactUpdateQueue = __webpack_require__(92);
@@ -52015,11 +52007,11 @@ module.exports = SVGDOMPropertyConfig;
 var EventPropagators = __webpack_require__(43);
 var ExecutionEnvironment = __webpack_require__(4);
 var ReactDOMComponentTree = __webpack_require__(8);
-var ReactInputSelection = __webpack_require__(145);
+var ReactInputSelection = __webpack_require__(144);
 var SyntheticEvent = __webpack_require__(21);
 
 var getActiveElement = __webpack_require__(54);
-var isTextInputElement = __webpack_require__(156);
+var isTextInputElement = __webpack_require__(155);
 var shallowEqual = __webpack_require__(32);
 
 var skipSelectionChangeEvent = ExecutionEnvironment.canUseDOM && 'documentMode' in document && document.documentMode <= 11;
@@ -52982,7 +52974,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(6);
 
 var ReactPropTypeLocationNames = __webpack_require__(317);
-var ReactPropTypesSecret = __webpack_require__(148);
+var ReactPropTypesSecret = __webpack_require__(147);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -53072,7 +53064,7 @@ module.exports = checkReactTypeSpec;
 
 
 
-var CSSProperty = __webpack_require__(137);
+var CSSProperty = __webpack_require__(136);
 var warning = __webpack_require__(2);
 
 var isUnitlessNumber = CSSProperty.isUnitlessNumber;
@@ -53163,7 +53155,7 @@ var ReactCurrentOwner = __webpack_require__(18);
 var ReactDOMComponentTree = __webpack_require__(8);
 var ReactInstanceMap = __webpack_require__(44);
 
-var getHostComponentFromComposite = __webpack_require__(152);
+var getHostComponentFromComposite = __webpack_require__(151);
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
@@ -53227,7 +53219,7 @@ module.exports = findDOMNode;
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var KeyEscapeUtils = __webpack_require__(88);
-var traverseAllChildren = __webpack_require__(158);
+var traverseAllChildren = __webpack_require__(157);
 var warning = __webpack_require__(2);
 
 var ReactComponentTreeHook;
@@ -53686,7 +53678,7 @@ module.exports = quoteAttributeValueForBrowser;
 
 
 
-var ReactMount = __webpack_require__(146);
+var ReactMount = __webpack_require__(145);
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
@@ -53719,7 +53711,7 @@ var _propTypes = __webpack_require__(41);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _TransitionGroup = __webpack_require__(159);
+var _TransitionGroup = __webpack_require__(158);
 
 var _TransitionGroup2 = _interopRequireDefault(_TransitionGroup);
 
@@ -53727,7 +53719,7 @@ var _CSSTransitionGroupChild = __webpack_require__(348);
 
 var _CSSTransitionGroupChild2 = _interopRequireDefault(_CSSTransitionGroupChild);
 
-var _PropTypes = __webpack_require__(160);
+var _PropTypes = __webpack_require__(159);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -53835,19 +53827,19 @@ var _extends = Object.assign || function (target) {
   }return target;
 };
 
-var _addClass = __webpack_require__(173);
+var _addClass = __webpack_require__(172);
 
 var _addClass2 = _interopRequireDefault(_addClass);
 
-var _removeClass = __webpack_require__(175);
+var _removeClass = __webpack_require__(174);
 
 var _removeClass2 = _interopRequireDefault(_removeClass);
 
-var _requestAnimationFrame = __webpack_require__(177);
+var _requestAnimationFrame = __webpack_require__(176);
 
 var _requestAnimationFrame2 = _interopRequireDefault(_requestAnimationFrame);
 
-var _properties = __webpack_require__(176);
+var _properties = __webpack_require__(175);
 
 var _react = __webpack_require__(14);
 
@@ -53859,7 +53851,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _reactDom = __webpack_require__(63);
 
-var _PropTypes = __webpack_require__(160);
+var _PropTypes = __webpack_require__(159);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -54084,7 +54076,7 @@ var _CSSTransitionGroup = __webpack_require__(347);
 
 var _CSSTransitionGroup2 = _interopRequireDefault(_CSSTransitionGroup);
 
-var _TransitionGroup = __webpack_require__(159);
+var _TransitionGroup = __webpack_require__(158);
 
 var _TransitionGroup2 = _interopRequireDefault(_TransitionGroup);
 
@@ -54597,7 +54589,7 @@ var ReactElement = __webpack_require__(28);
  */
 var createDOMFactory = ReactElement.createFactory;
 if (process.env.NODE_ENV !== 'production') {
-  var ReactElementValidator = __webpack_require__(163);
+  var ReactElementValidator = __webpack_require__(162);
   createDOMFactory = ReactElementValidator.createFactory;
 }
 
@@ -54797,7 +54789,7 @@ module.exports = ReactPropTypeLocationNames;
 var _require = __webpack_require__(28),
     isValidElement = _require.isValidElement;
 
-var factory = __webpack_require__(135);
+var factory = __webpack_require__(134);
 
 module.exports = factory(isValidElement);
 
@@ -54954,14 +54946,14 @@ module.exports = checkReactTypeSpec;
 
 
 
-var _require = __webpack_require__(161),
+var _require = __webpack_require__(160),
     Component = _require.Component;
 
 var _require2 = __webpack_require__(28),
     isValidElement = _require2.isValidElement;
 
-var ReactNoopUpdateQueue = __webpack_require__(164);
-var factory = __webpack_require__(172);
+var ReactNoopUpdateQueue = __webpack_require__(163);
+var factory = __webpack_require__(171);
 
 module.exports = factory(Component, isValidElement, ReactNoopUpdateQueue);
 
@@ -55057,9 +55049,9 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(36);
 
 var ReactCurrentOwner = __webpack_require__(18);
-var REACT_ELEMENT_TYPE = __webpack_require__(162);
+var REACT_ELEMENT_TYPE = __webpack_require__(161);
 
-var getIteratorFn = __webpack_require__(165);
+var getIteratorFn = __webpack_require__(164);
 var invariant = __webpack_require__(1);
 var KeyEscapeUtils = __webpack_require__(351);
 var warning = __webpack_require__(2);
@@ -57227,7 +57219,7 @@ var _propTypes = __webpack_require__(41);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _classnames = __webpack_require__(171);
+var _classnames = __webpack_require__(170);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -64226,7 +64218,7 @@ var _reactDom = __webpack_require__(63);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _SupportAppComponent = __webpack_require__(169);
+var _SupportAppComponent = __webpack_require__(168);
 
 var _SupportAppComponent2 = _interopRequireDefault(_SupportAppComponent);
 
@@ -64269,7 +64261,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(167)(content, options);
+var update = __webpack_require__(166)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
