@@ -1,0 +1,34 @@
+{
+  "version": "1.0.2",
+  "main": "dist/SupportAppComponent.js",
+  "scripts": {
+    "build": "babel src/SupportAppComponent.jsx -o dist/SupportAppComponent.js"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "name": "epiq-appsupport-supportapp-component",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "dotnetify": "2.0.4-beta",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1",
+    "css-loader": "0.8.0",
+    "style-loader": "0.18.2"
+  },
+  "dependencies": {
+    "epiq-appsupport-chatbutton-component": "1.0.10",
+    "epiq-appsupport-chatwindow-component": "1.0.3",
+    "bootstrap": "4.0.0-alpha.6"
+  },
+  "files": [
+    "dist/"
+  ]
+}
