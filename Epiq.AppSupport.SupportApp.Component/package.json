@@ -25,8 +25,7 @@
   },
   "dependencies": {
     "epiq-react-components-supportbutton": "1.0.0",
-    "epiq-react-components-chatwindow": "1.0.0",
-    "bootstrap": "4.0.0-alpha.6"
+    "epiq-react-components-chatwindow": "1.0.0"
   },
   "files": [
     "dist/"

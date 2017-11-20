@@ -1,7 +1,6 @@
 import React from 'react';
 import SupportButtonComponent from 'epiq-react-components-supportbutton';
 import SupportChatComponent from 'epiq-react-components-chatwindow';
-import 'bootstrap/dist/css/bootstrap.css';
 
 class SupportAppComponent extends React.Component {
     constructor(props) {
