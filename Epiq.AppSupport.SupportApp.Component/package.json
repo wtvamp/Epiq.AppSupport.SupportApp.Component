@@ -24,8 +24,8 @@
     "style-loader": "0.18.2"
   },
   "dependencies": {
-    "epiq-appsupport-chatbutton-component": "1.0.11",
-    "epiq-appsupport-chatwindow-component": "1.0.6",
+    "epiq-react-components-supportbutton": "1.0.0",
+    "epiq-react-components-chatwindow": "1.0.0",
     "bootstrap": "4.0.0-alpha.6"
   },
   "files": [

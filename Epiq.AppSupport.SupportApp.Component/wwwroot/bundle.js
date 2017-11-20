@@ -29911,13 +29911,13 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _epiqAppsupportChatbuttonComponent = __webpack_require__(262);
+var _epiqReactComponentsSupportbutton = __webpack_require__(263);
 
-var _epiqAppsupportChatbuttonComponent2 = _interopRequireDefault(_epiqAppsupportChatbuttonComponent);
+var _epiqReactComponentsSupportbutton2 = _interopRequireDefault(_epiqReactComponentsSupportbutton);
 
-var _epiqAppsupportChatwindowComponent = __webpack_require__(263);
+var _epiqReactComponentsChatwindow = __webpack_require__(262);
 
-var _epiqAppsupportChatwindowComponent2 = _interopRequireDefault(_epiqAppsupportChatwindowComponent);
+var _epiqReactComponentsChatwindow2 = _interopRequireDefault(_epiqReactComponentsChatwindow);
 
 __webpack_require__(165);
 
@@ -29956,8 +29956,8 @@ var SupportAppComponent = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(_epiqAppsupportChatbuttonComponent2.default, { onClick: this.showChatWindow }),
-                this.state.showChat && _react2.default.createElement(_epiqAppsupportChatwindowComponent2.default, { type: '0', image: 'https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg' })
+                _react2.default.createElement(_epiqReactComponentsSupportbutton2.default, { onClick: this.showChatWindow }),
+                this.state.showChat && _react2.default.createElement(_epiqReactComponentsChatwindow2.default, { type: '0', image: 'https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg' })
             );
         }
     }]);
@@ -43199,57 +43199,6 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SupportButtonComponent = function (_React$Component) {
-    _inherits(SupportButtonComponent, _React$Component);
-
-    function SupportButtonComponent(props) {
-        _classCallCheck(this, SupportButtonComponent);
-
-        return _possibleConstructorReturn(this, (SupportButtonComponent.__proto__ || Object.getPrototypeOf(SupportButtonComponent)).call(this, props));
-    }
-
-    _createClass(SupportButtonComponent, [{
-        key: 'render',
-        value: function render() {
-            var style = {
-                'background-color': 'green',
-                'border-radius': '5px'
-            };
-
-            return _react2.default.createElement('button', { style: style, onClick: this.props.onClick }, 'Send');
-        }
-    }]);
-
-    return SupportButtonComponent;
-}(_react2.default.Component);
-
-exports.default = SupportButtonComponent;
-
-/***/ }),
-/* 263 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(14);
-
-var _react2 = _interopRequireDefault(_react);
-
 var _dotnetify = __webpack_require__(177);
 
 var _dotnetify2 = _interopRequireDefault(_dotnetify);
@@ -43346,6 +43295,52 @@ var SendChatMessageBox = _react2.default.createClass({
             } }), _react2.default.createElement(_reactstrap.InputGroupButton, null, _react2.default.createElement(_reactstrap.Button, { color: 'secondary', onClick: handleAdd }, 'Send'))));
     }
 });
+
+/***/ }),
+/* 263 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(14);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SupportButtonComponent = function (_React$Component) {
+    _inherits(SupportButtonComponent, _React$Component);
+
+    function SupportButtonComponent(props) {
+        _classCallCheck(this, SupportButtonComponent);
+
+        return _possibleConstructorReturn(this, (SupportButtonComponent.__proto__ || Object.getPrototypeOf(SupportButtonComponent)).call(this, props));
+    }
+
+    _createClass(SupportButtonComponent, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement('button', { onClick: this.props.onClick }, 'Open Support Chat');
+        }
+    }]);
+
+    return SupportButtonComponent;
+}(_react2.default.Component);
+
+exports.default = SupportButtonComponent;
 
 /***/ }),
 /* 264 */
@@ -64228,7 +64223,7 @@ var _jquery2 = _interopRequireDefault(_jquery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_jquery2.default.connection.hub.url = "http://sayhivm20170801035834.azurewebsites.net/signalr";
+_jquery2.default.connection.hub.url = "http://epiq-chat-signalr-server.azurewebsites.net/signalr";
 
 _reactDom2.default.render(_react2.default.createElement(_SupportAppComponent2.default, null), document.getElementById('Content'));
 

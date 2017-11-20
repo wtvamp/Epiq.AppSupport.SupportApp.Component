@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import SupportAppComponent from 'SupportAppComponent.jsx';
 import $ from 'jquery';
 
-$.connection.hub.url = "http://sayhivm20170801035834.azurewebsites.net/signalr";
+$.connection.hub.url = "http://epiq-chat-signalr-server.azurewebsites.net/signalr";
 
 ReactDOM.render(
     <SupportAppComponent />,
