@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epiq.AppSupport.SupportApp.Component", "Epiq.AppSupport.SupportApp.Component\Epiq.AppSupport.SupportApp.Component.csproj", "{D9DA0B31-854A-4899-9813-CA323DDD5C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Epiq.React.SupportWidget.Component", "Epiq.React.SupportWidget.Component\Epiq.React.SupportWidget.Component.csproj", "{D9DA0B31-854A-4899-9813-CA323DDD5C65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5458DBE3-FC1B-4842-9BA6-493BFBFA5FCD}
 	EndGlobalSection
 EndGlobal

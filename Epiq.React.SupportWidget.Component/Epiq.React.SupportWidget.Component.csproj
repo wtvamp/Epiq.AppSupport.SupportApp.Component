@@ -6,6 +6,11 @@
 
   <PropertyGroup>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+    <RootNamespace>Epiq.React.SupportWidget.Component</RootNamespace>
+    <PackageId>Epiq.React.SupportWidget.Component</PackageId>
+    <Authors>Epiq.React.SupportWidget.Component</Authors>
+    <Company>Epiq.React.SupportWidget.Component</Company>
+    <Product>Epiq.React.SupportWidget.Component</Product>
   </PropertyGroup>
 
   <ItemGroup>
