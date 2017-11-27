@@ -1,15 +1,15 @@
 {
   "version": "1.0.3",
-  "main": "dist/SupportAppComponent.js",
+  "main": "dist/SupportWidgetComponent.js",
   "scripts": {
-    "build": "babel src/SupportAppComponent.jsx -o dist/SupportAppComponent.js"
+    "build": "babel src/SupportWidgetComponent.jsx -o dist/SupportWidgetComponent.js"
   },
   "babel": {
     "presets": [
       "react"
     ]
   },
-  "name": "epiq-appsupport-supportapp-component",
+  "name": "epiq-react-components-supportwidget",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.23.1",
@@ -24,7 +24,7 @@
     "style-loader": "0.18.2"
   },
   "dependencies": {
-    "epiq-react-components-supportbutton": "1.0.0",
+    "epiq-react-components-supportbutton": "1.0.1",
     "epiq-react-components-chatwindow": "1.0.0"
   },
   "files": [

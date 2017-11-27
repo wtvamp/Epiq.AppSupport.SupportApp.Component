@@ -20130,13 +20130,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var SupportAppComponent = function (_React$Component) {
-    _inherits(SupportAppComponent, _React$Component);
+var SupportWidgetComponent = function (_React$Component) {
+    _inherits(SupportWidgetComponent, _React$Component);
 
-    function SupportAppComponent(props) {
-        _classCallCheck(this, SupportAppComponent);
+    function SupportWidgetComponent(props) {
+        _classCallCheck(this, SupportWidgetComponent);
 
-        var _this = _possibleConstructorReturn(this, (SupportAppComponent.__proto__ || Object.getPrototypeOf(SupportAppComponent)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (SupportWidgetComponent.__proto__ || Object.getPrototypeOf(SupportWidgetComponent)).call(this, props));
 
         _this.state = { showChat: false };
 
@@ -20144,7 +20144,7 @@ var SupportAppComponent = function (_React$Component) {
         return _this;
     }
 
-    _createClass(SupportAppComponent, [{
+    _createClass(SupportWidgetComponent, [{
         key: 'showChatWindow',
         value: function showChatWindow() {
             var showChat = this.state.showChat;
@@ -20163,10 +20163,10 @@ var SupportAppComponent = function (_React$Component) {
         }
     }]);
 
-    return SupportAppComponent;
+    return SupportWidgetComponent;
 }(_react2.default.Component);
 
-exports.default = SupportAppComponent;
+exports.default = SupportWidgetComponent;
 
 /***/ }),
 /* 91 */
@@ -21263,7 +21263,12 @@ var SupportButtonComponent = function (_React$Component) {
     _createClass(SupportButtonComponent, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement('button', { onClick: this.props.onClick }, 'Open Support Chat');
+            var style = {
+                'backgroundColor': '#9ebcea',
+                'borderRadius': '5px'
+            };
+
+            return _react2.default.createElement('button', { style: style, onClick: this.props.onClick }, 'Start Chat');
         }
     }]);
 
@@ -44067,9 +44072,9 @@ var _reactDom = __webpack_require__(27);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _SupportAppComponent = __webpack_require__(90);
+var _SupportWidgetComponent = __webpack_require__(90);
 
-var _SupportAppComponent2 = _interopRequireDefault(_SupportAppComponent);
+var _SupportWidgetComponent2 = _interopRequireDefault(_SupportWidgetComponent);
 
 var _jquery = __webpack_require__(34);
 
@@ -44079,7 +44084,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _jquery2.default.connection.hub.url = "http://epiq-chat-signalr-server.azurewebsites.net/signalr";
 
-_reactDom2.default.render(_react2.default.createElement(_SupportAppComponent2.default, null), document.getElementById('Content'));
+_reactDom2.default.render(_react2.default.createElement(_SupportWidgetComponent2.default, null), document.getElementById('Content'));
 
 /***/ }),
 /* 215 */

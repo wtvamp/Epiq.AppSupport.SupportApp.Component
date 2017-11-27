@@ -2,7 +2,7 @@ import React from 'react';
 import SupportButtonComponent from 'epiq-react-components-supportbutton';
 import SupportChatComponent from 'epiq-react-components-chatwindow';
 
-class SupportAppComponent extends React.Component {
+class SupportWidgetComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = { showChat: false };
@@ -25,4 +25,4 @@ class SupportAppComponent extends React.Component {
     }
 }
 
-export default SupportAppComponent;
+export default SupportWidgetComponent;
