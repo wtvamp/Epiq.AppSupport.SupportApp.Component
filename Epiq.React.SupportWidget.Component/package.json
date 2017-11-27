@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.0",
   "main": "dist/SupportWidgetComponent.js",
   "scripts": {
     "build": "babel src/SupportWidgetComponent.jsx -o dist/SupportWidgetComponent.js"
