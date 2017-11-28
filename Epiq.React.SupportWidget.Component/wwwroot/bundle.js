@@ -20158,13 +20158,18 @@ var SupportWidgetComponent = function (_React$Component) {
                 'div',
                 null,
                 _react2.default.createElement(_epiqReactComponentsSupportbutton2.default, { onClick: this.showChatWindow }),
-                this.state.showChat && _react2.default.createElement(_epiqReactComponentsChatwindow2.default, { type: '0', image: 'https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg' })
+                this.state.showChat && _react2.default.createElement(_epiqReactComponentsChatwindow2.default, { type: this.props.type, image: this.props.image })
             );
         }
     }]);
 
     return SupportWidgetComponent;
 }(_react2.default.Component);
+
+SupportWidgetComponent.defaultProps = {
+    type: 0,
+    image: "https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg"
+};
 
 exports.default = SupportWidgetComponent;
 

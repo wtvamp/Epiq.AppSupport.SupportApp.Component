@@ -19,10 +19,15 @@ class SupportWidgetComponent extends React.Component {
         return (
             <div>
                 <SupportButtonComponent onClick={this.showChatWindow} />
-                {this.state.showChat && <SupportChatComponent type="0" image="https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg" /> }
+                {this.state.showChat && <SupportChatComponent type={this.props.type} image={this.props.image} /> }
             </div>
         );
     }
+}
+
+SupportWidgetComponent.defaultProps = {
+    type: 0,
+    image: "https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg"
 }
 
 export default SupportWidgetComponent;
